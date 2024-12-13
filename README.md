@@ -1,7 +1,7 @@
 # Qubic Core Technology (QCT)
-This Repository is to document the QCT activities.
+This repository is to document the QCT activities.
 
-## QCT vs. Qubic Core Servics (QCT)
+## QCT vs. Qubic Core Servics (QCS)
 This both entities are not connected to each other organizationally. Both operate on their own.
 
 ## Reportings
