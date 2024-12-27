@@ -31,7 +31,7 @@ The core team builds and maintains the qubic core and CLI.
 It gives support for ecosystem developers for smart contracts.
 
 | Person   |      Position      |  Work load |
-|----------|-------------|------:| --- | 
+|----------|-------------|------:| 
 | @dkat |  Software Architect |   ~10-50% |
 | @phil |    Lead Developer   |   ~50% |
 | @cyber-pc | Developer |    ~100% |
