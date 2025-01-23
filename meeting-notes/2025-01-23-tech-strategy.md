@@ -25,7 +25,7 @@ Main topic of this meeting was aobut how/what to prioritize in 2025. Working on 
 - To document tech/dev knowledge we want to create a wiki/faq to which we can refer if we get common questions (a need from developers)
 
 ## Discussion
-We had a lot of discussion on current issues (e.g. MEXC deposit/withdrawal problems). We discussed about what platform shuold be used to exchange information and how to provide knowledge to ecosystem developers.
+We had a lot of discussion on current issues (e.g. MEXC deposit/withdrawal problems). We discussed about what platform should be used to exchange information and how to provide knowledge to ecosystem developers.
 
 Current states of projects like Quottery, Wallet and others.
 
