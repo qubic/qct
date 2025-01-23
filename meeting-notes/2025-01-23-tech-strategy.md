@@ -25,15 +25,15 @@ Main topic of this meeting was aobut how/what to prioritize in 2025. Working on 
 - To document tech/dev knowledge we want to create a wiki/faq to which we can refer if we get common question (a need from developers)
 
 ## Discussion
-We had a lot of discussion on current issues (e.g. MEXC deposit/withdrawal problems). We discuesed about what platform shuold be used to exchange information and how to provide knowledge do ecosystem developers.
+We had a lot of discussion on current issues (e.g. MEXC deposit/withdrawal problems). We discussed about what platform shuold be used to exchange information and how to provide knowledge do ecosystem developers.
 
-current states of projects like Quottery, Wallet and others.
+Current states of projects like Quottery, Wallet and others.
 
 We also considered to do security audits. at the current state of the development it most probably is to early (still a lot of changes in core); the security audits should therefore be done when code is almost finished or there is a specific need for a listing or a partnership.
 
-Roadmap discussion. We identified/discussed about topics we can put on the 2025 roadmap. there are many light house projects. we are very hard frontloaded and will do a rolling planning each for 1-3 months.
+Roadmap discussion. We identified/discussed about topics we can put on the 2025 roadmap. There are many light house projects. We are very hard frontloaded and will do a rolling planning each for 1-3 months.
 
-how should we track our projects and their progress? @wfschreck has set-up a test instnace with open project. with that we could track our projects and also allow others to join. together with @berts they will start with a tryout on using open project for qubic.
+How should we track our projects and their progress? @wfschreck has set-up a test instance with open project. With that we could track our projects and also allow others to join. Together with @berts they will start with a tryout on using open project for qubic.
 
 ## Identified Priorities
 Beside many other important things we have identified those priorities:
