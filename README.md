@@ -10,6 +10,7 @@ In this repository you will find several reportings
 1. [Meeting Notes](meeting-notes/README.md)
 2. [Organizational Reporting](org-reports/README.md)
 4. [Financial Reporting](financial-reports/README.md)
+5. [Objective Tracking](objective-tracking.md)
 
 ## Who we are
 QCT is a workgroup of passionate developers which joined together to build the qubic core.
