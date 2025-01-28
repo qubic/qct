@@ -38,7 +38,7 @@ Duration: Jan 08 2025 - Jan 27 2025
 
 * Added compression and decompression for upload and download of files (see [issue](https://github.com/qubic/core/issues/251)).
 * Improved precision of command nonce to enable execution of commands in fast succession (see [issue](https://github.com/qubic/qubic-cli/issues/57)).
-
+* Fixed Issue with receiving information from noded that have no index yet (see [PR](https://github.com/qubic/qubic-cli/pull/55))
 #### SC Developer Support
 
 * Guided QEarn developers in adding variables for metrics to QEarn state and reviewed their changes in core, CLI, and the standalone state migration tool. 
