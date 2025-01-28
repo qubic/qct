@@ -38,7 +38,7 @@ Duration: Jan 08 2025 - Jan 27 2025
 
 * Added compression and decompression for upload and download of files (see [issue](https://github.com/qubic/core/issues/251)).
 * Improved precision of command nonce to enable execution of commands in fast succession (see [issue](https://github.com/qubic/qubic-cli/issues/57)).
-* Fixed issue with receiving information from nodes that have no index yet (see [PR](https://github.com/qubic/qubic-cli/pull/55))
+* Fixed issue with receiving information from nodes that have no index yet (see [PR](https://github.com/qubic/qubic-cli/pull/55)).
 
 #### SC Developer Support
 
