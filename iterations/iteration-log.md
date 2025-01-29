@@ -28,18 +28,22 @@ Duration: Jan 08 2025 - Jan 27 2025
 
 * Added first test for custom mining tasks: nodes can receive custom mining solutions (see [PR](https://github.com/qubic/core/pull/271)).
 * Improved coding style consistency for class names (see [PR](https://github.com/qubic/core/pull/272)).
-* Added pause before clearing all memory at epoch transition.
+* Added pause before clearing all logging memory at epoch transition for facilitating complete event archive (multiple single commits including some fixes).
 * Combined memory allocation and error logging in one function (see [issue](https://github.com/qubic/core/issues/215)).
-* Added transfer of asset management rights (see [issue](https://github.com/qubic/core/issues/269)).
+* Added transfer of asset management rights and fixed a few bugs (see [issue](https://github.com/qubic/core/issues/269)).
 * Fixed failing testcases when logging is enabled (see [issue](https://github.com/qubic/core/issues/281)).
 * Evaluated possibilities to measure network speed by airdrop (see [issue](https://github.com/qubic/core/issues/274)).
+* Added async file I/O support (see [PR](https://github.com/qubic/core/pull/253)).
 
 #### CLI
 
 * Added compression and decompression for upload and download of files (see [issue](https://github.com/qubic/core/issues/251)).
 * Improved precision of command nonce to enable execution of commands in fast succession (see [issue](https://github.com/qubic/qubic-cli/issues/57)).
 * Fixed issue with receiving information from nodes that have no index yet (see [PR](https://github.com/qubic/qubic-cli/pull/55)).
+* Added command to transfer asset management rights from QX to another contract (see [PR](https://github.com/qubic/qubic-cli/pull/64)).
+* Fixed issue in getting tick transactions (see commits [1](https://github.com/qubic/qubic-cli/commit/02fc287cac5d3df8a317f019bccc8dddd6432396) and [2](https://github.com/qubic/qubic-cli/commit/bfb104a63eb27dfe34c85bf67c50055ed262dc9a))
 
 #### SC Developer Support
 
-* Guided QEarn developers in adding variables for metrics to QEarn state and reviewed their changes in core, CLI, and the standalone state migration tool. 
+* Guided QEarn developers in adding variables for metrics to QEarn state and reviewed their changes in core, CLI, and the standalone state migration tool.
+* Supporting QVAULT developers within several issues.
