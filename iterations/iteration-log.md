@@ -27,11 +27,11 @@ Duration: Jan 28, 2025 - Feb 10, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-* Research and create prototype for long term archive solution (base for next steps).
-* Improve monitoring of go-qubic-nodes service (see [issue](https://github.com/qubic/go-qubic-nodes/issues/5)).
-* Allow to use pass codes per qubic node (see [issue](https://github.com/qubic/go-qubic/issues/8)).
-* Use pass code per qubic node in go-events service (see [issue](https://github.com/qubic/go-events/issues/7)).
-* Refactor code for validating requested tick range in go-archiver (see [issue](https://github.com/qubic/go-archiver/issues/92)).
+* Researched and created prototype for long term archive solution (base for next steps).
+* Improved monitoring of go-qubic-nodes service (see [issue](https://github.com/qubic/go-qubic-nodes/issues/5)).
+* Added possibility to use pass codes per qubic node (see [issue](https://github.com/qubic/go-qubic/issues/8)).
+* Used pass code per qubic node in go-events service (see [issue](https://github.com/qubic/go-events/issues/7)).
+* Refactored code for validating requested tick range in go-archiver (see [issue](https://github.com/qubic/go-archiver/issues/92)).
 
 ## Iteration 2
 
