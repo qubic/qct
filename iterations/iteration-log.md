@@ -16,14 +16,14 @@ Duration: Jan 28, 2025 - Feb 10, 2025
 * Supported more QPI functions in Google Test environment (see [issue](https://github.com/qubic/core/issues/294)).
 * Solved deadlock in asset management rights transfer (see [issue](https://github.com/qubic/core/issues/296)).
 * Work on various improvment to ticking speed and saftey (see [issue](https://github.com/qubic/core/issues/305)).
-
+* General info about Monero mining (see [issue](https://github.com/qubic/core/issues/275)).
 
 #### CLI
 
 * Revised how socket's recv() is used, fixing that occasionally incomplete data was received, for example about quorum ticks (see [issue](https://github.com/qubic/core/issues/304)).
 
 
-## Iteration 2 
+## Iteration 2
 
 Duration: Jan 08 2025 - Jan 27 2025
 
