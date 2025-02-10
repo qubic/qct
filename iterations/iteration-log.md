@@ -15,6 +15,8 @@ Duration: Jan 28, 2025 - Feb 10, 2025
 * Enabled contracts to bid for shares during a contract IPO via QPI function (see [issue](https://github.com/qubic/core/issues/293)).
 * Supported more QPI functions in Google Test environment (see [issue](https://github.com/qubic/core/issues/294)).
 * Solved deadlock in asset management rights transfer (see [issue](https://github.com/qubic/core/issues/296)).
+* Work on various improvment to ticking speed and saftey (see [issue](https://github.com/qubic/core/issues/305)).
+
 
 #### CLI
 
