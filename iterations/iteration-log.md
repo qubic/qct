@@ -15,12 +15,15 @@ Duration: Jan 28, 2025 - Feb 10, 2025
 * Enabled contracts to bid for shares during a contract IPO via QPI function (see [issue](https://github.com/qubic/core/issues/293)).
 * Supported more QPI functions in Google Test environment (see [issue](https://github.com/qubic/core/issues/294)).
 * Solved deadlock in asset management rights transfer (see [issue](https://github.com/qubic/core/issues/296)).
-* Work on various improvment to ticking speed and saftey (see [issue](https://github.com/qubic/core/issues/305)).
+* Worked on various improvements to ticking speed and saftey (see [issue](https://github.com/qubic/core/issues/305)).
 * General info about Monero mining (see [issue](https://github.com/qubic/core/issues/275)).
+* Implemented qutil SC procedure for benchmarking transfer speed/throughput (see [PR](https://github.com/qubic/core/pull/300)).
+* Manually tested the docker for running a Qubic test node (see [issue](https://github.com/qubic/core/issues/284)).
 
 #### CLI
 
 * Revised how socket's recv() is used, fixing that occasionally incomplete data was received, for example about quorum ticks (see [issue](https://github.com/qubic/core/issues/304)).
+* Fixed the offset between local and node time in the synctime command (see [PR](https://github.com/qubic/qubic-cli/pull/67)).
 
 
 ## Iteration 2
