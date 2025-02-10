@@ -25,10 +25,17 @@ Duration: Jan 28, 2025 - Feb 10, 2025
 * Revised how socket's recv() is used, fixing that occasionally incomplete data was received, for example about quorum ticks (see [issue](https://github.com/qubic/core/issues/304)).
 * Fixed the offset between local and node time in the synctime command (see [PR](https://github.com/qubic/qubic-cli/pull/67)).
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Researched and created prototype for long term archive solution (base for next steps).
+* Improved monitoring of go-qubic-nodes service (see [issue](https://github.com/qubic/go-qubic-nodes/issues/5)).
+* Added possibility to use pass codes per qubic node (see [issue](https://github.com/qubic/go-qubic/issues/8)).
+* Used pass code per qubic node in go-events service (see [issue](https://github.com/qubic/go-events/issues/7)).
+* Refactored code for validating requested tick range in go-archiver (see [issue](https://github.com/qubic/go-archiver/issues/92)).
 
 ## Iteration 2
 
-Duration: Jan 08 2025 - Jan 27 2025
+Duration: Jan 08, 2025 - Jan 27, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
