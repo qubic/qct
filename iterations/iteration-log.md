@@ -4,6 +4,23 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 3
+
+Duration: Jan 28, 2025 - Feb 10, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/8)
+
+#### Core
+
+* Enabled contracts to bid for shares during a contract IPO via QPI function (see [issue](https://github.com/qubic/core/issues/293)).
+* Supported more QPI functions in Google Test environment (see [issue](https://github.com/qubic/core/issues/294)).
+* Solved deadlock in asset management rights transfer (see [issue](https://github.com/qubic/core/issues/296)).
+
+#### CLI
+
+* Revised how socket's recv() is used, fixing that occasionally incomplete data was received, for example about quorum ticks (see [issue](https://github.com/qubic/core/issues/304)).
+
+
 ## Iteration 2 
 
 Duration: Jan 08 2025 - Jan 27 2025
