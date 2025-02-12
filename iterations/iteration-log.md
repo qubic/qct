@@ -24,6 +24,12 @@ Duration: Jan 28, 2025 - Feb 10, 2025
 
 * Revised how socket's recv() is used, fixing that occasionally incomplete data was received, for example about quorum ticks (see [issue](https://github.com/qubic/core/issues/304)).
 * Fixed the offset between local and node time in the synctime command (see [PR](https://github.com/qubic/qubic-cli/pull/67)).
+* Implemented `-qutilsendtomanybenchmark` (see [PR](https://github.com/qubic/qubic-cli/pull/69)).
+
+#### SC Developer Support
+
+* Final review of MSVAULT contract
+* Answering questions of contract devs in private messages
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
