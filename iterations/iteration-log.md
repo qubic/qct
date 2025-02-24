@@ -4,6 +4,21 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 4
+
+Duration: Feb 11, 2025 - Feb 24, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Improve node pooling: minimum tick (see [issue](https://github.com/qubic/go-qubic-nodes/issues/13)).
+* Improve node pooling: node selection by highest tick (see [issue](https://github.com/qubic/go-qubic-nodes/issues/11)).
+* Add code and documentation for transferring assets (see [issue](https://github.com/qubic/go-node-connector/issues/14)).
+* Make arbitrator key configurable to be able to run archive service on testnet (see [issue](https://github.com/qubic/go-archiver/issues/100)).
+* Add metrics to assets service (see [issue](https://github.com/qubic/assets-service/issues/2)).
+* Add metrics to transfers service (see [issue](https://github.com/qubic/go-transfers/issues/4)).
+* Add metrics to events service (see [issue](https://github.com/qubic/go-events/issues/10)).
+* Update deployment information for dev02 (see [issue](https://github.com/qubic/qubic-deployment/issues/10)).
+
 ## Iteration 3
 
 Duration: Jan 28, 2025 - Feb 10, 2025
@@ -50,7 +65,7 @@ Duration: Jan 08, 2025 - Jan 27, 2025
 * Improved retry mechanism for node communication (see [issue](https://github.com/qubic/qubic-http/issues/29)).
 * Improved architecture documentation (see [issue](https://github.com/qubic/qubic-deployment/issues/6) and [issue](https://github.com/qubic/integration/issues/30)).
 * Improved GetEmptyTicksForEpochs performance (see [issue](https://github.com/qubic/go-archiver/issues/90)).
-* Provide service for asset owners list (see  [issue](https://github.com/qubic/qx-service/issues/6) and [assets-service](https://github.com/qubic/assets-service)).
+* Provide service for asset owners list (see [issue](https://github.com/qubic/qx-service/issues/6) and [assets-service](https://github.com/qubic/assets-service)).
 
 #### QX (not part of integration infrastructure)
 
