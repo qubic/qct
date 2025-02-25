@@ -23,9 +23,17 @@ Duration: Feb 11, 2025 - Feb 24, 2025
 
 #### Core
 
+* Added feature to query asset information with various filtering options (see [issue](https://github.com/qubic/core/issues/266), [PR](https://github.com/qubic/core/pull/313)).
+* Added first version of coding guidelines and updated documentation (see [PR](https://github.com/qubic/core/pull/319)).
 * Added procedures for QPI functions in Test Example A SC (to enable automatic testing in testnet in the next step) (see [issue](https://github.com/qubic/core/issues/291), [PR](https://github.com/qubic/core/pull/320)).
+* Added some network message documentation, did some refactoring, and changed `TryAgain` type (see [PR](https://github.com/qubic/core/pull/314)).
+* Added dispatcher in preparation of custom mining (see [PR](https://github.com/qubic/core/pull/310)).
+* Fixed issue of test.exe not starting anymore (see [PR](https://github.com/qubic/core/pull/308)).
 
 #### CLI
+
+* Implemented `-queryasset` (see [PR](https://github.com/qubic/qubic-cli/pull/70)).
+
 
 ## Iteration 3
 
