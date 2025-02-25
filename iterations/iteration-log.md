@@ -19,6 +19,14 @@ Duration: Feb 11, 2025 - Feb 24, 2025
 * Add metrics to events service (see [issue](https://github.com/qubic/go-events/issues/10)).
 * Update deployment information for dev02 (see [issue](https://github.com/qubic/qubic-deployment/issues/10)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/8)
+
+#### Core
+
+* Added procedures for QPI functions in Test Example A SC (to enable automatic testing in testnet in the next step) (see [issue](https://github.com/qubic/core/issues/291), [PR](https://github.com/qubic/core/pull/320)).
+
+#### CLI
+
 ## Iteration 3
 
 Duration: Jan 28, 2025 - Feb 10, 2025
