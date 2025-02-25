@@ -29,6 +29,7 @@ Duration: Feb 11, 2025 - Feb 24, 2025
 * Added some network message documentation, did some refactoring, and changed `TryAgain` type (see [PR](https://github.com/qubic/core/pull/314)).
 * Added dispatcher in preparation of custom mining (see [PR](https://github.com/qubic/core/pull/310)).
 * Fixed issue of test.exe not starting anymore (see [PR](https://github.com/qubic/core/pull/308)).
+* Improved and referenced code for connections between Qiner, Xmrig, and nodes (see [issue](https://github.com/qubic/core/issues/292)).
 
 #### CLI
 
