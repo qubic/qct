@@ -17,6 +17,7 @@ Duration: Feb 25, 2025 - March 10, 2025
 * Debugged and fixed node freeze issues (see [issue](https://github.com/qubic/core/issues/306), [PR 1](https://github.com/qubic/core/pull/335), [PR 2](https://github.com/qubic/core/pull/331), [PR 1](https://github.com/qubic/core/pull/336))
 * Some optimizations and cleanup (see [issue 1](https://github.com/qubic/core/issues/328), [issue 2](https://github.com/qubic/core/issues/327), [issue 3](https://github.com/qubic/core/issues/326))
 * Updated detailed manual test plan together with the testing team (see [issue](https://github.com/qubic/core/issues/286))
+* Apply full mining flow, update solutions counter and look into Oracle (see [issue](https://github.com/qubic/core/issues/292)).
 
 
 #### CLI
