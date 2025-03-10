@@ -4,6 +4,24 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+
+## Iteration 5
+
+Duration: Feb 25, 2025 - March 10, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/8)
+
+#### Core
+
+* Updated detailed manual test plan together with the testing team (see [issue](https://github.com/qubic/core/issues/286))
+
+
+#### CLI
+
+* Added new testing command to automatically test functions that cannot be covered by unit tests (see [issue](https://github.com/qubic/core/issues/291) and [PR](https://github.com/qubic/qubic-cli/pull/77))
+* Improved QubicConnection::receivePacketWithHeaderAs() and added proper handling of EndResponseReceived (see [issue](https://github.com/qubic/qubic-cli/issues/75))
+
+
 ## Iteration 4
 
 Duration: Feb 11, 2025 - Feb 24, 2025
