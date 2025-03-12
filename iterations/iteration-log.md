@@ -31,6 +31,19 @@ Duration: Feb 25, 2025 - March 10, 2025
 
 * Reviews of contracts QBAY and QSWAP
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Add support for new asset endpoints to node connector library (see [issue](https://github.com/qubic/go-node-connector/issues/18)).
+* Add endpoints for querying asset information via new core endpoints to qubic http (see [issue](https://github.com/qubic/qubic-http/issues/32)).
+* Adapt to changes in tick structure (see [issue](https://github.com/qubic/go-archiver/issues/103)).
+* Deploy new archiver version (tick structure changes and transfer endpoint with pagination).
+* Update documentation (see [issue](https://github.com/qubic/qubic-http/issues/33)).
+* Maintenance Servers & Deployments (see [issue](https://github.com/qubic/qubic-deployment/issues/8), [issue](https://github.com/qubic/qubic-deployment/issues/12)).
+* Hotfix: increase max pagination size for explorer and wallet (see [issue](https://github.com/qubic/go-archiver/issues/107)).
+
+#### QX
+
+* Add endpoint that informs about QX sync status (see [issue](https://github.com/qubic/qx-service/issues/12)).
 
 ## Iteration 4
 
