@@ -20,6 +20,13 @@ Duration: March 11, 2025 - March 24, 2025
 * Added special command to cycle through console logging mode (see [issue](https://github.com/qubic/qubic-cli/issues/78))
 * Improved stability and extended testing commands from previous iteration to cover special cases (see [PR](https://github.com/qubic/qubic-cli/pull/80))
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Add new endpoint for asset owners/rich list (see [issue](https://github.com/qubic/qubic-stats-service/issues/11)).
+* Improve node pooling by fetching tick info in parallel (see [issue](https://github.com/qubic/go-qubic-nodes/issues/16)).
+* Improve node pooling by adding option for using public peers (see [issue](https://github.com/qubic/go-qubic-nodes/issues/18)).
+* Update docker compose file for archiver (see [issue](https://github.com/qubic/go-archiver/issues/109)).
+
 ## Iteration 5
 
 Duration: Feb 25, 2025 - March 10, 2025
