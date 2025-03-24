@@ -12,6 +12,8 @@ Duration: March 11, 2025 - March 24, 2025
 
 #### Core
 * Worked with testing team to extend release testing protocol with the new cli testing commands (see [PR](https://github.com/qubic/core/pull/340))
+* Improve Asynchronous File I/O: Optimized File I/O Flushing (see [issue](https://github.com/qubic/core/issues/344)).
+* Added reference code for signing task and solution message (see [issue](https://github.com/qubic/core/issues/292)).
 
 #### CLI
 * Added special command to cycle through console logging mode (see [issue](https://github.com/qubic/qubic-cli/issues/78))
