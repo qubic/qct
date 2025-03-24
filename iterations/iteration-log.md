@@ -4,6 +4,18 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 6
+
+Duration: March 11, 2025 - March 24, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/8)
+
+#### Core
+* Worked with testing team to extend release testing protocol with the new cli testing commands (see [PR](https://github.com/qubic/core/pull/340))
+
+#### CLI
+* Added special command to cycle through console logging mode (see [issue](https://github.com/qubic/qubic-cli/issues/78))
+* Improved stability and extended testing commands from previous iteration to cover special cases (see [PR](https://github.com/qubic/qubic-cli/pull/80))
 
 ## Iteration 5
 
