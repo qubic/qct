@@ -7,11 +7,11 @@ https://explorer.qubic.org/network/address/XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQ
 
 ## Latest Report
 
-[March 2025](2025-03-03-march-2025.md)
+[March 2025](2025-03-04-march-2025.md)
 
 [February 2025](2025-03-03-february-2025.md)
 
-[January 2025](2025-03-03-january-2025.md)
+[January 2025](2025-03-02-january-2025.md)
 
 [December 2024](2025-01-23-december-2024.md)
 
