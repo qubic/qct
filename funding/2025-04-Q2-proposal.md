@@ -1,4 +1,4 @@
-# Proposal to Fund the Development of the Qubic Core
+# Proposal to Fund the Development of the Qubic Core (DRAFT)
 
 ## Proposal
 Send 288 billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEITGGEWZDIBRAIYWPGEONG` to support the further development of Qubic Core.
