@@ -16,6 +16,8 @@ Send 288 billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEI
 
 - Monthly financial reports can be found [here](https://github.com/qubic/qct/tree/financial-2025/financial-reports).
 
+- The [Financial Audit Report](https://docs.google.com/spreadsheets/d/1iJZQynlU8j0ujhj8hBrvkH19eFCT7JloSUPbZMjwPaY) gives a cross reference from an external view.
+
 - The main achievements of QCT with the past funding were:
   - Established a clear operating of the Teams including regular reporting.
   - On boarded developers for integration and core teams and extended the testing team.
