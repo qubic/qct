@@ -10,7 +10,7 @@ Send 288 billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEI
 
 ## How We Used Past Funding
 
-- With the [previous funding proposal](https://github.com/qubic/proposal/blob/b4de3432f4ee6c9b77b0b551badbd8debefcfaeb/CCF-Funding-Requests/2024-11-14-tech-funding.md) approved in the Epoch 135, QCT received 180 billion QUBIC from CCF. </br>This amount, initially estimated to cover QCT operations from November 2024 to January 2025, ended up fully funding February 2025 as well, and covering 74.41% of the expenses for March 2025.
+- With the [previous funding proposal](https://github.com/qubic/proposal/blob/b4de3432f4ee6c9b77b0b551badbd8debefcfaeb/CCF-Funding-Requests/2024-11-14-tech-funding.md) approved in the Epoch 135, QCT received 180 billion QUBIC from CCF. </br>This amount, initially estimated to cover QCT operations from November 2024 to January 2025, ended up fully funding February 2025 as well, and covering 74.35% of the expenses for March 2025.
 
 - Core and Integration teams work in bi-weekly iterations. Reports detailing the achievements of each team per iteration can be found [here](https://github.com/qubic/qct/blob/main/iterations/iteration-log.md).
 
