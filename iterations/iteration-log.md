@@ -4,6 +4,18 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 7
+
+Duration: March 25, 2025 - April 7, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Implement PoC for publishing transactions to Elasticsearch (see [go-data-publisher](https://github.com/qubic/go-data-publisher)).
+* Implement PoC for querying transaction via Elasticsearch.
+* Define Architecture for Elasticsearch data ingestion (see [diagram](https://github.com/qubic/qubic-deployment/blob/main/docs/elastic-ingestion.png)).
+* Implement kafka publisher for events (see [go-events-publisher](https://github.com/qubic/go-events-publisher)).
+* Create stub for kafka consumer for events (see [go-events-consumer](https://github.com/qubic/go-events-consumer)).
+
 ## Iteration 6
 
 Duration: March 11, 2025 - March 24, 2025
@@ -128,11 +140,11 @@ Duration: Jan 28, 2025 - Feb 10, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-* Researched and created prototype for long term archive solution (base for next steps).
-* Improved monitoring of go-qubic-nodes service (see [issue](https://github.com/qubic/go-qubic-nodes/issues/5)).
-* Added possibility to use pass codes per qubic node (see [issue](https://github.com/qubic/go-qubic/issues/8)).
-* Used pass code per qubic node in go-events service (see [issue](https://github.com/qubic/go-events/issues/7)).
-* Refactored code for validating requested tick range in go-archiver (see [issue](https://github.com/qubic/go-archiver/issues/92)).
+* Research and created prototype for long term archive solution (base for next steps).
+* Improve monitoring of go-qubic-nodes service (see [issue](https://github.com/qubic/go-qubic-nodes/issues/5)).
+* Add possibility to use pass codes per qubic node (see [issue](https://github.com/qubic/go-qubic/issues/8)).
+* Use pass code per qubic node in go-events service (see [issue](https://github.com/qubic/go-events/issues/7)).
+* Refactor code for validating requested tick range in go-archiver (see [issue](https://github.com/qubic/go-archiver/issues/92)).
 
 ## Iteration 2
 
@@ -140,11 +152,11 @@ Duration: Jan 08, 2025 - Jan 27, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-* Implemented archiver p2p synchronization protocol (see [issue](https://github.com/qubic/go-archiver/issues/43)).
+* Implement archiver p2p synchronization protocol (see [issue](https://github.com/qubic/go-archiver/issues/43)).
 * Add paging to the transfers endpoint (see [issue](https://github.com/qubic/go-archiver/issues/95)).
-* Improved retry mechanism for node communication (see [issue](https://github.com/qubic/qubic-http/issues/29)).
-* Improved architecture documentation (see [issue](https://github.com/qubic/qubic-deployment/issues/6) and [issue](https://github.com/qubic/integration/issues/30)).
-* Improved GetEmptyTicksForEpochs performance (see [issue](https://github.com/qubic/go-archiver/issues/90)).
+* Improve retry mechanism for node communication (see [issue](https://github.com/qubic/qubic-http/issues/29)).
+* Improve architecture documentation (see [issue](https://github.com/qubic/qubic-deployment/issues/6) and [issue](https://github.com/qubic/integration/issues/30)).
+* Improve GetEmptyTicksForEpochs performance (see [issue](https://github.com/qubic/go-archiver/issues/90)).
 * Provide service for asset owners list (see [issue](https://github.com/qubic/qx-service/issues/6) and [assets-service](https://github.com/qubic/assets-service)).
 
 #### QX (not part of integration infrastructure)
