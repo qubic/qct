@@ -24,9 +24,11 @@ Duration: March 25, 2025 - April 7, 2025
 * Optimized File I/O Flushing (see [PR](https://github.com/qubic/core/pull/351), [issue](https://github.com/qubic/core/issues/344)).
 * XMR reveneue calculation, record XMR share as vote counter (see [PR](https://github.com/qubic/core/pull/352), [issue](https://github.com/qubic/core/issues/347)).
 * XMR verification, submit XMR verification as OPERATOR (see [PR](https://github.com/qubic/core/pull/360), [issue](https://github.com/qubic/core/issues/347)).
+* Fix size of respose for console-logging special command (see [PR](https://github.com/qubic/core/pull/358)).
 
 #### CLI
 * Test incoming transfer callback and IPO bid through QPI (see [PR](https://github.com/qubic/qubic-cli/pull/82)).
+* Adds check if txBodyDigest needs to be compared (see [PR](https://github.com/qubic/qubic-cli/pull/81)).
 
 ## Iteration 6
 
