@@ -1,4 +1,4 @@
-# Qubic Core Technology
+# Q2-2025 Organization Updates
 > 2025-04-08
 
 With Q2 now underway, please find below the latest updates on our team structure.

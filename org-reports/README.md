@@ -3,7 +3,7 @@ The org reports are used to give you an image on who is working for QCT on what 
 
 ## Latest Report
 
-[2025-04-08 Latest Report](2025-04-08-org-report.md)
+[2025-04-08 Q2-2025 Organization Updates](2025-04-08-org-report.md)
 
 ## History
 
