@@ -25,10 +25,10 @@ Duration: March 25, 2025 - April 7, 2025
 * XMR reveneue calculation, record XMR share as vote counter (see [PR](https://github.com/qubic/core/pull/352), [issue](https://github.com/qubic/core/issues/347)).
 * XMR verification, submit XMR verification as OPERATOR (see [PR](https://github.com/qubic/core/pull/360), [issue](https://github.com/qubic/core/issues/347)).
 * Fix size of respose for console-logging special command (see [PR](https://github.com/qubic/core/pull/358)).
-* Created one line command to deploy qubic ecosystem - faster development (see [Qubic dev kit](https://github.com/qubic/qubic-dev-kit).
+* Created one line command to deploy qubic ecosystem - faster development (see [Qubic dev kit](https://github.com/qubic/qubic-dev-kit)).
 * Automation testing for core devs (internal only), using Qubic dev kit
-* Virtual memory, use disks to replace RAM. Preparation for light node (see [PR](https://github.com/qubic/core/pull/353).
-* Logging v2 - more reliable logging event system (see [PR](https://github.com/qubic/core/pull/353).
+* Virtual memory, use disks to replace RAM. Preparation for light node (see [PR](https://github.com/qubic/core/pull/353)).
+* Logging v2 - more reliable logging event system (see [PR](https://github.com/qubic/core/pull/353)).
 * Created remote XMR verifier - listen task and share from qubic network then do verification (see [code](https://github.com/qubic/outsourced-computing/tree/main/monero-poc/verifier)).
 
 
