@@ -16,6 +16,15 @@ Duration: March 25, 2025 - April 7, 2025
 * Implement kafka publisher for events (see [go-events-publisher](https://github.com/qubic/go-events-publisher)).
 * Create stub for kafka consumer for events (see [go-events-consumer](https://github.com/qubic/go-events-consumer)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+* Add incoming transfer callback, extend QPI for IPO, improve and update contract docs (see [PR](https://github.com/qubic/core/pull/359), [issue 1](https://github.com/qubic/core/issues/339), [issue 2](https://github.com/qubic/core/issues/354)).
+* Change how contract procedures and functions are defined, for better formatting (see [PR](https://github.com/qubic/core/pull/361), [issue](https://github.com/qubic/core/issues/341)).
+
+#### CLI
+* Test incoming transfer callback and IPO bid through QPI (see [PR](https://github.com/qubic/qubic-cli/pull/82)).
+
 ## Iteration 6
 
 Duration: March 11, 2025 - March 24, 2025
