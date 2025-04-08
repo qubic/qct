@@ -21,6 +21,9 @@ Duration: March 25, 2025 - April 7, 2025
 #### Core
 * Add incoming transfer callback, extend QPI for IPO, improve and update contract docs (see [PR](https://github.com/qubic/core/pull/359), [issue 1](https://github.com/qubic/core/issues/339), [issue 2](https://github.com/qubic/core/issues/354)).
 * Change how contract procedures and functions are defined, for better formatting (see [PR](https://github.com/qubic/core/pull/361), [issue](https://github.com/qubic/core/issues/341)).
+* Optimized File I/O Flushing (see [PR](https://github.com/qubic/core/pull/351), [issue](https://github.com/qubic/core/issues/344)).
+* XMR reveneue calculation, record XMR share as vote counter (see [PR](https://github.com/qubic/core/pull/352), [issue](https://github.com/qubic/core/issues/347)).
+* XMR verification, submit XMR verification as OPERATOR (see [PR](https://github.com/qubic/core/pull/360), [issue](https://github.com/qubic/core/issues/347)).
 
 #### CLI
 * Test incoming transfer callback and IPO bid through QPI (see [PR](https://github.com/qubic/qubic-cli/pull/82)).
