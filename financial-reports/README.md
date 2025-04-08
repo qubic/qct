@@ -9,6 +9,8 @@ https://explorer.qubic.org/network/address/XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQ
 
 [March 2025](2025-03-04-march-2025.md)
 
+## History
+
 [February 2025](2025-03-03-february-2025.md)
 
 [January 2025](2025-03-02-january-2025.md)
@@ -16,6 +18,3 @@ https://explorer.qubic.org/network/address/XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQ
 [December 2024](2025-01-23-december-2024.md)
 
 [November 2024](2024-12-13-november-2024.md)
-
-## History
-none
