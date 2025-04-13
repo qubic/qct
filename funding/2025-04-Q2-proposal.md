@@ -36,7 +36,7 @@ The requested funding will be allocated to:
 - Pay team salaries for Q2 2025 (April–June).
 - Cover service and server expenses necessary for QCT operations during Q2 2025 (April–June).
 
-Our development team is working on critical improvements and features essential for the long-term success of the blockchain.
+Our development team is working on critical improvements and features essential for the long-term success of Qubic.
 Ensuring financial stability allows us to focus on innovation, security, and scalability without disruption.
 
 ### Provided Services / What QCT does
@@ -105,3 +105,4 @@ Each month costs:
 ## References
 https://github.com/J0ET0M/qubic-doc/blob/main/QubicCoreTechnologyDraft.md
 https://discord.com/channels/768887649540243497/1301317725444116490
+https://discord.com/channels/768887649540243497/1301317725444116490/1358492075917836388
