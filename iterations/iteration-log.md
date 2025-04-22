@@ -11,6 +11,8 @@ Duration: April 8, 2025 - April 22, 2025
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
 * Setup elastic production cluster.
+* Migrate transaction data to production cluster (see [issue](https://github.com/qubic/go-data-publisher/issues/6)).
+* Add tests for transaction publisher (see [issue](https://github.com/qubic/go-data-publisher/issues/5)).
 * Add kafka consumer for events (see [go-events-consumer](https://github.com/qubic/go-events-consumer)).
 * Add glossary (for RPC 2.0).
 
