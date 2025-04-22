@@ -16,6 +16,14 @@ Duration: April 8, 2025 - April 22, 2025
 * Add kafka consumer for events (see [go-events-consumer](https://github.com/qubic/go-events-consumer)).
 * Add glossary (for RPC 2.0).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Speed-up construction of TickData by tick leader (see [PR](https://github.com/qubic/core/pull/367)).
+* Track waiting in inter-processor communication (locks etc) (see [issue](https://github.com/qubic/core/issues/371), [PR](https://github.com/qubic/core/pull/372)).
+
+
 ## Iteration 7
 
 Duration: March 25, 2025 - April 7, 2025
