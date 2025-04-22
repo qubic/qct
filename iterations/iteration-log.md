@@ -22,6 +22,8 @@ Duration: April 8, 2025 - April 22, 2025
 
 * Speed-up construction of TickData by tick leader (see [PR](https://github.com/qubic/core/pull/367)).
 * Track waiting in inter-processor communication (locks etc) (see [issue](https://github.com/qubic/core/issues/371), [PR](https://github.com/qubic/core/pull/372)).
+* XMR reveneue calculation, improve share counter tx (see [PR](https://github.com/qubic/core/pull/363), [issue](https://github.com/qubic/core/issues/347)).
+* XMR reveneue calculation, limit custom mining transaction package and remove any duplicated solutions(half done). (see [PR](https://github.com/qubic/core/pull/364), [issue](https://github.com/qubic/core/issues/347)).
 
 
 ## Iteration 7
