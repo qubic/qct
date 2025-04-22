@@ -144,7 +144,7 @@
 | Name            | Comment                          | Aliases            |
 |-----------------|----------------------------------|--------------------|
 | epoch           | Epoch number                     |                    |
-| tickNumber      | Tick number                      | tickNumber         |
+| tickNumber      | Tick number                      | tick               |
 | eventId         | Node specific event id           | id                 |
 | digest          |                                  | eventDigest        |
 | transactionHash | Transaction the event belongs to |                    |
