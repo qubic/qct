@@ -4,6 +4,16 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 8
+
+Duration: April 8, 2025 - April 22, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Setup elastic production cluster.
+* Add kafka consumer for events (see [go-events-consumer](https://github.com/qubic/go-events-consumer)).
+* Add glossary (for RPC 2.0).
+
 ## Iteration 7
 
 Duration: March 25, 2025 - April 7, 2025
