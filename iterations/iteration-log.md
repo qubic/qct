@@ -24,7 +24,11 @@ Duration: April 8, 2025 - April 22, 2025
 * Track waiting in inter-processor communication (locks etc) (see [issue](https://github.com/qubic/core/issues/371), [PR](https://github.com/qubic/core/pull/372)).
 * XMR reveneue calculation, improve share counter tx (see [PR](https://github.com/qubic/core/pull/363), [issue](https://github.com/qubic/core/issues/347)).
 * XMR reveneue calculation, limit custom mining transaction package and remove any duplicated solutions(half done). (see [PR](https://github.com/qubic/core/pull/364), [issue](https://github.com/qubic/core/issues/347)).
-
+* Ticking without ARB finalized, but not deployed yet due to slow catch-up (see [issue](https://github.com/qubic/core/issues/216), [PR](https://github.com/qubic/core/pull/356)).
+* Clang Port: working on CMake build scripts
+* Debugging, analyzing, and improving networking code
+* Continued work on virtual memory (see [PR](https://github.com/qubic/core/pull/353)).
+* Creating a simple pool & modded xmrig
 
 ## Iteration 7
 
