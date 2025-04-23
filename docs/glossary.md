@@ -2,9 +2,6 @@
 
 ## TODOs / Open questions
 
-* Transaction hash or transaction id? id/identity?
-* Entity -> Too generic. Is 'balance' a better name? Other suggestions?
-* eventId -> better name (it's not a unique id)
 * event data -> payload?
 * Fill quorum tick data
 
@@ -13,8 +10,8 @@
 
 ### Base terminology
 
-* `Identity` refers to ID - human-readable form of public key.
-* `PublicKey` refers to byte representation of public key.
+* `Identity` refers to the human-readable form of the public key (60 letters, A-Z, last 4 are the checksum).
+* `PublicKey` refers to the machine-readable representation of the public key (32 bytes).
 
 ### Rules
 
@@ -24,7 +21,7 @@
 ### Decisions
 
 * tickNumber ... with number postfix, otherwise refers to the domain object. Postfix omitted for some properties like initialTick, incomingTick, ...
-* identity/publicKey ... can be omitted, if it's clear for the API what to use (different for RCP/CLI and core code)
+* identity/publicKey ... can be omitted, if it's clear for the API what to use (different for RPC/CLI and core code)
 
 ## Domain Objects
 
@@ -145,7 +142,7 @@
 |-----------------|----------------------------------|--------------------|
 | epoch           | Epoch number                     |                    |
 | tickNumber      | Tick number                      | tick               |
-| eventId         | Node specific event id           | id                 |
+| index           | Node specific event id           | eventId, id        |
 | digest          |                                  | eventDigest        |
 | transactionHash | Transaction the event belongs to |                    |
 | type            |                                  | eventType          |
