@@ -21,6 +21,8 @@ Duration: April 22, 2025 - May 5, 2025
   * Addition of qintrin.h for inclusion of platform specific intrinsic headers ([PR](https://github.com/qubic/core/pull/382) and [PR](https://github.com/qubic/core/pull/393))
   * Port of first test case `math_lib` to clang ([PR](https://github.com/qubic/core/pull/381))
 * Fix bugs (see [PR](https://github.com/qubic/core/pull/396), [commit](https://github.com/qubic/core/commit/8dbb5dede04a2d3a7ee51eb4d94efdac918d065a)).
+* XMR reveneue calculation, Improvement for task and solution storage in node core. (see [PR](https://github.com/qubic/core/pull/379), [issue](https://github.com/qubic/core/issues/347)).
+* XMR verification, Enable nodes to store a range of XMR tasks, which can then be retrieved and processed. (see [PR](https://github.com/qubic/outsourced-computing/pull/8), [issue](https://github.com/qubic/core/issues/347)).
 
 ## Iteration 8
 
