@@ -4,6 +4,19 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 9
+
+Duration: April 22, 2025 - May 5, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Add profiler classes / macros for measuring execution time easily (see [issue](https://github.com/qubic/core/issues/389), [PR](https://github.com/qubic/core/pull/390)).
+* Speedup `qpi.distributeDividends()` massively (see [PR](https://github.com/qubic/core/pull/375)).
+* Implement burning of asset shares (see [issue](https://github.com/qubic/core/issues/377), [PR](https://github.com/qubic/core/pull/378)).
+* Fix bugs (see [PR](https://github.com/qubic/core/pull/396), [commit](https://github.com/qubic/core/commit/8dbb5dede04a2d3a7ee51eb4d94efdac918d065a)).
+
 ## Iteration 8
 
 Duration: April 8, 2025 - April 22, 2025
