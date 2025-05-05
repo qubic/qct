@@ -23,6 +23,10 @@ Duration: April 22, 2025 - May 5, 2025
 * Fix bugs (see [PR](https://github.com/qubic/core/pull/396), [commit](https://github.com/qubic/core/commit/8dbb5dede04a2d3a7ee51eb4d94efdac918d065a)).
 * XMR reveneue calculation, Improvement for task and solution storage in node core. (see [PR](https://github.com/qubic/core/pull/379), [issue](https://github.com/qubic/core/issues/347)).
 * XMR verification, Enable nodes to store a range of XMR tasks, which can then be retrieved and processed. (see [PR](https://github.com/qubic/outsourced-computing/pull/8), [issue](https://github.com/qubic/core/issues/347)).
+* Finished work on virtual memory and event logging v2 (see [PR](https://github.com/qubic/core/pull/353)).
+* Force more decentralization by signing votes with random k, requiring more computation (see [PR](https://github.com/qubic/core/pull/380)).
+* Auto-resend tick votes (F9) if tick gets stuck too long (see [PR](https://github.com/qubic/core/pull/388/)).
+* Work on improving peers logic (see [PR](https://github.com/qubic/core/pull/386)).
 
 ## Iteration 8
 
