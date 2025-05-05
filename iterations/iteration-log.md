@@ -27,7 +27,8 @@ Duration: April 22, 2025 - May 5, 2025
 * Force more decentralization by signing votes with random k, requiring more computation (see [PR](https://github.com/qubic/core/pull/380)).
 * Auto-resend tick votes (F9) if tick gets stuck too long (see [PR](https://github.com/qubic/core/pull/388/)).
 * Work on improving peers logic (see [PR](https://github.com/qubic/core/pull/386)).
-
+* Working on light node (applying virtual memory to tick storage)
+* Working with Ecosystem team to create general voting SC (create poll/proposal and vote with QUs or assets)
 ## Iteration 8
 
 Duration: April 8, 2025 - April 22, 2025
