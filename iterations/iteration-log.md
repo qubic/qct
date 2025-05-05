@@ -15,6 +15,11 @@ Duration: April 22, 2025 - May 5, 2025
 * Add profiler classes / macros for measuring execution time easily (see [issue](https://github.com/qubic/core/issues/389), [PR](https://github.com/qubic/core/pull/390)).
 * Speedup `qpi.distributeDividends()` massively (see [PR](https://github.com/qubic/core/pull/375)).
 * Implement burning of asset shares (see [issue](https://github.com/qubic/core/issues/377), [PR](https://github.com/qubic/core/pull/378)).
+* Various step into the direction of compilation with Clang (See [Issue](https://github.com/qubic/core/issues/257) and PRs below)
+  * CMake build script to build with Clang (see [PR](https://github.com/qubic/core/pull/381) and [PR](https://github.com/qubic/core/pull/391))
+  * Addition of qstdint.h as custom cstdint.h version for qubic ([PR](https://github.com/qubic/core/pull/392))
+  * Addition of qintrin.h for inclusion of platform specific intrinsic headers ([PR](https://github.com/qubic/core/pull/382) and [PR](https://github.com/qubic/core/pull/393))
+  * Port of first test case `math_lib` to clang ([PR](https://github.com/qubic/core/pull/381))
 * Fix bugs (see [PR](https://github.com/qubic/core/pull/396), [commit](https://github.com/qubic/core/commit/8dbb5dede04a2d3a7ee51eb4d94efdac918d065a)).
 
 ## Iteration 8
