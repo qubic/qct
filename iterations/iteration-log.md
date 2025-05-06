@@ -29,6 +29,23 @@ Duration: April 22, 2025 - May 5, 2025
 * Work on improving peers logic (see [PR](https://github.com/qubic/core/pull/386)).
 * Working on light node (applying virtual memory to tick storage)
 * Working with Ecosystem team to create general voting SC (create poll/proposal and vote with QUs or assets)
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+#### Core related
+
+* Adapt to new core tick vote verification logic (see [issue](https://github.com/qubic/go-archiver/issues/117)).
+* Add system info node request (see [issue](https://github.com/qubic/go-node-connector/issues/25)).
+
+#### Data Archive (RPC 2.0)
+
+* Add kafka publisher for transactions (see [issue](https://github.com/qubic/go-data-publisher/issues/14)).
+* Add kafka consumer for transactions (see [issue](https://github.com/qubic/go-data-publisher/issues/2)).
+* Add status service for providing archive processing status (see [issue](https://github.com/qubic/go-data-publisher/issues/13)).
+* Restructure go-data-publisher repository (see [issue](https://github.com/qubic/go-data-publisher/issues/7) and [issue](https://github.com/qubic/go-data-publisher/issues/10)).
+* Reindex transaction data (see [issue](https://github.com/qubic/qubic-deployment/issues/17)).
+* Deploy new backend infrastructure on dev and prod.
+
 ## Iteration 8
 
 Duration: April 8, 2025 - April 22, 2025
