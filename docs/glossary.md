@@ -36,17 +36,17 @@
 
 ### Tick Data
 
-| Name              | Description                   | Aliases                      |
-|-------------------|-------------------------------|------------------------------|
-| computorIndex     |                               |                              |
-| tickNumber        | Number of the tick            | tick                         |
-| epoch             |                               |                              |
-| timestamp         |                               |                              |
-| varStruct         | Deprecated. Not used anymore. |                              |
-| timeLock          |                               |                              |
-| transactionHashes | List of transactions in tick  | transactions, transactionIds |
-| contractFees      | List of contract fees         |                              |
-| signature         |                               | signatureHex                 |
+| Name              | Description                   | Aliases                                           |
+|-------------------|-------------------------------|---------------------------------------------------|
+| computorIndex     |                               |                                                   |
+| tickNumber        | Number of the tick            | tick                                              |
+| epoch             |                               |                                                   |
+| timestamp         |                               |                                                   |
+| varStruct         | Deprecated. Not used anymore. |                                                   |
+| timeLock          |                               |                                                   |
+| transactionHashes | List of transactions in tick  | transactions, transactionsDigests, transactionIds |
+| contractFees      | List of contract fees         |                                                   |
+| signature         |                               | signatureHex                                      |
 
 ### Quorum Tick Data
 
