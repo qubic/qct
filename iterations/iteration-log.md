@@ -4,6 +4,23 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 10
+
+Duration: May 6, 2025 - May 19, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Add QUTIL function for getting total asset share number (see [PR](https://github.com/qubic/core/pull/409)).
+* Implement `QPI::HashSet` class, which is a hash map without values (see [PR](https://github.com/qubic/core/pull/413)).
+* Fix bug in contract execution that is relevant for QVAULT v2 (see [PR](https://github.com/qubic/core/pull/396)).
+* Continue work on profiler classes / macros for measuring execution time easily (see [issue](https://github.com/qubic/core/issues/389), [PR](https://github.com/qubic/core/pull/390)).
+
+#### SC Developer Support
+
+* Review of contract QVAULT (version 2) + support of contract developer
+
 ## Iteration 9
 
 Duration: April 22, 2025 - May 5, 2025
