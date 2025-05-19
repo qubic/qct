@@ -18,6 +18,7 @@ Duration: May 6, 2025 - May 19, 2025
 * Continue work on profiler classes / macros for measuring execution time easily (see [issue](https://github.com/qubic/core/issues/389), [PR](https://github.com/qubic/core/pull/390)).
 * XMR revenue calculation, Fix bugs and improvement for task groups. (see [PR](https://github.com/qubic/core/pull/401), [issue](https://github.com/qubic/core/issues/347)).
 * XMR revenue calculation, New and more correct formula for revenue calculation. (see [PR](https://github.com/qubic/core/pull/411), [issue](https://github.com/qubic/core/issues/347)).
+* Pushing various PR toward Clang port (see [PR](https://github.com/qubic/core/pull/398), [PR](https://github.com/qubic/core/pull/399), [PR](https://github.com/qubic/core/pull/402))
 
 #### SC Developer Support
 
