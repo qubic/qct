@@ -16,6 +16,8 @@ Duration: May 6, 2025 - May 19, 2025
 * Implement `QPI::HashSet` class, which is a hash map without values (see [PR](https://github.com/qubic/core/pull/413)).
 * Fix bug in contract execution that is relevant for QVAULT v2 (see [PR](https://github.com/qubic/core/pull/396)).
 * Continue work on profiler classes / macros for measuring execution time easily (see [issue](https://github.com/qubic/core/issues/389), [PR](https://github.com/qubic/core/pull/390)).
+* XMR revenue calculation, Fix bugs and improvement for task groups. (see [PR](https://github.com/qubic/core/pull/401), [issue](https://github.com/qubic/core/issues/347)).
+* XMR revenue calculation, New and more correct formula for revenue calculation. (see [PR](https://github.com/qubic/core/pull/411), [issue](https://github.com/qubic/core/issues/347)).
 
 #### SC Developer Support
 
