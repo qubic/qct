@@ -24,6 +24,16 @@ Duration: May 6, 2025 - May 19, 2025
 
 * Review of contract QVAULT (version 2) + support of contract developer
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Publish tick data to elastic (see [issue](https://github.com/qubic/go-data-publisher/issues/16)):
+  * Tick data publisher (see [issue](https://github.com/qubic/go-data-publisher/issues/19)).
+  * Tick data consumer (see [issue](https://github.com/qubic/go-data-publisher/issues/20)).
+  * Adapt status service (see [issue](https://github.com/qubic/go-data-publisher/issues/21)).
+  * Add elastic search index (see [issue](https://github.com/qubic/go-data-publisher/issues/22)).
+* Add grpc endpoint for status service (see [issue](https://github.com/qubic/go-data-publisher/issues/24)).
+* Fix data for certain ticks in elastic (see [issue](https://github.com/qubic/go-data-publisher/issues/26) and [issue](https://github.com/qubic/go-data-publisher/issues/30)).
+
 ## Iteration 9
 
 Duration: April 22, 2025 - May 5, 2025
