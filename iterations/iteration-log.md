@@ -26,7 +26,7 @@ Duration: May 6, 2025 - May 19, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-* Publish tick data to elastic (see [issue](https://github.com/qubic/go-data-publisher/issues/16)):
+* Publish tick data to elastic (see [issue](https://github.com/qubic/go-data-publisher/issues/16)).
   * Tick data publisher (see [issue](https://github.com/qubic/go-data-publisher/issues/19)).
   * Tick data consumer (see [issue](https://github.com/qubic/go-data-publisher/issues/20)).
   * Adapt status service (see [issue](https://github.com/qubic/go-data-publisher/issues/21)).
