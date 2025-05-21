@@ -19,6 +19,10 @@ Duration: May 6, 2025 - May 19, 2025
 * XMR revenue calculation, Fix bugs and improvement for task groups. (see [PR](https://github.com/qubic/core/pull/401), [issue](https://github.com/qubic/core/issues/347)).
 * XMR revenue calculation, New and more correct formula for revenue calculation. (see [PR](https://github.com/qubic/core/pull/411), [issue](https://github.com/qubic/core/issues/347)).
 * Pushing various PR toward Clang port (see [PR](https://github.com/qubic/core/pull/398), [PR](https://github.com/qubic/core/pull/399), [PR](https://github.com/qubic/core/pull/402))
+* Advise ecosystem team to develop general voting SC [PR](https://github.com/qubic/core/pull/408) (fullstack from frontend to backend)
+* Coordinating with DISPATCHER & Comps & Miners to deploy XMR+TARI nodes and mining pool [see live stats](https://xmr-stats.qubic.org/).
+* Improved peer logic [PR](https://github.com/qubic/core/pull/404)
+* Refactoring peer and network code, make way for light node.
 
 #### SC Developer Support
 
