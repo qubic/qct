@@ -15,7 +15,8 @@ Duration: May 20, 2025 - June 2, 2025
 * Finish `QPI::HashSet` class, improve `QPI::HashMap` and `QPI::Collection` (see [PR](https://github.com/qubic/core/pull/413)).
 * Speed-up `processTick()` (see [PR](https://github.com/qubic/core/pull/418)).
 * Finish work on profiler classes / macros for measuring execution time easily (see [issue](https://github.com/qubic/core/issues/389), [PR](https://github.com/qubic/core/pull/390)).
-
+* XMR revenue calculation, fix bugs and some minor improvement. (see [PR](https://github.com/qubic/core/pull/420), [issue](https://github.com/qubic/core/issues/347)).
+* New mining algorithm May 2025, reference code in Qiner (see [PR](https://github.com/qubic/Qiner/pull/10), [issue](https://github.com/qubic/core/issues/412)).
 
 #### CLI
 
