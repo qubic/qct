@@ -4,6 +4,23 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 11
+
+Duration: May 20, 2025 - June 2, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Finish `QPI::HashSet` class, improve `QPI::HashMap` and `QPI::Collection` (see [PR](https://github.com/qubic/core/pull/413)).
+* Speed-up `processTick()` (see [PR](https://github.com/qubic/core/pull/418)).
+* Finish work on profiler classes / macros for measuring execution time easily (see [issue](https://github.com/qubic/core/issues/389), [PR](https://github.com/qubic/core/pull/390)).
+
+
+#### CLI
+
+* Add command to get total number of shares of an asset (see [PR](https://github.com/qubic/qubic-cli/pull/87)).
+
 ## Iteration 10
 
 Duration: May 6, 2025 - May 19, 2025
