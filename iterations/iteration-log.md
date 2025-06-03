@@ -17,6 +17,8 @@ Duration: May 20, 2025 - June 2, 2025
 * Finish work on profiler classes / macros for measuring execution time easily (see [issue](https://github.com/qubic/core/issues/389), [PR](https://github.com/qubic/core/pull/390)).
 * XMR revenue calculation, fix bugs and some minor improvement. (see [PR](https://github.com/qubic/core/pull/420), [issue](https://github.com/qubic/core/issues/347)).
 * New mining algorithm May 2025, reference code in Qiner (see [PR](https://github.com/qubic/Qiner/pull/10), [issue](https://github.com/qubic/core/issues/412)).
+* Adjustment of data types in the m256 tests (see [PR](https://github.com/qubic/core/pull/402))
+* Fix problem when systemfile isn't deleted during epoch transition (see [PR](https://github.com/qubic/core/pull/415)) 
 
 #### CLI
 
