@@ -20,6 +20,8 @@ Duration: May 20, 2025 - June 2, 2025
 * Adjustment of data types in the m256 tests (see [PR](https://github.com/qubic/core/pull/402)).
 * Fix problem when systemfile isn't deleted during epoch transition (see [PR](https://github.com/qubic/core/pull/415)).
 * Experiment with different tools and frameworks for contract verification tool to determine what to use (see [issue](https://github.com/qubic/core/issues/424)).
+* Improving external computing (Monero mining PoC)
+* Improving logic in vote score and custom mining score tx packets. [PR](https://github.com/qubic/core/pull/423)
 
 #### CLI
 
