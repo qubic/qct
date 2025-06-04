@@ -27,6 +27,19 @@ Duration: May 20, 2025 - June 2, 2025
 
 * Add command to get total number of shares of an asset (see [PR](https://github.com/qubic/qubic-cli/pull/87)).
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Migrate identity transactions endpoint to query service (see [issue](https://github.com/qubic/archive-query-service/issues/1)
+  and [issue](https://github.com/qubic/go-archiver/issues/94)).
+* Migrate tick transactions endpoint to query service (see [issue](https://github.com/qubic/archive-query-service/issues/2)).
+* Migrate tick data endpoint to query service (see [issue](https://github.com/qubic/archive-query-service/issues/2)).
+* Provide processed tick intervals from status service (see [issue](https://github.com/qubic/go-data-publisher/issues/29)).
+* Support tick range error messages in query service (see [issue](https://github.com/qubic/archive-query-service/issues/4)).
+* Add per grpc endpoint metrics to query service (see [issue](https://github.com/qubic/archive-query-service/issues/5)).
+* Test qutil call for total number of asset shares.
+* Remove transfer service OpenAPI documentation (see [issue](https://github.com/qubic/integration/issues/40)).
+* Create documentation of new RPC 2.0 endpoints.
+
 ## Iteration 10
 
 Duration: May 6, 2025 - May 19, 2025
