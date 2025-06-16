@@ -4,6 +4,21 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 12
+
+Duration: June 3, 2025 - June 16, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Prevent future problems with `QPI::Collection`s in QX by calling `cleanup()` and modifying `add()` (see [PR](https://github.com/qubic/core/pull/429)).
+* Work on adding shareholder voting support to QPI (see [issue](https://github.com/qubic/core/issues/440), [PR](https://github.com/qubic/core/pull/441)).
+
+#### SC Developer Support
+
+* Review of contract QUTIL update (new polls feature)
+
 ## Iteration 11
 
 Duration: May 20, 2025 - June 2, 2025
