@@ -24,6 +24,22 @@ Duration: June 3, 2025 - June 16, 2025
 
 * Review of contract QUTIL update (new polls feature)
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+
+* Create service for new RPC 2 endpoints (see [issue](https://github.com/qubic/archive-query-service/issues/10)).
+* Add archive status endpoint to status service (see [issue](https://github.com/qubic/go-data-publisher/issues/33)).
+* Refactor transaction publishing (see [issue](https://github.com/qubic/go-data-publisher/issues/35)).
+* Add load balancing for elastic services (see [issue](https://github.com/qubic/archive-query-service/issues/9) and [issue](https://github.com/qubic/qubic-deployment/issues/24)).
+* Regression: Fix start and end tick query parameters in identity transfers endpoint (see [issue](https://github.com/qubic/archive-query-service/issues/20)).
+* Fix status code for id validation errors in query service (see [issue](https://github.com/qubic/archive-query-service/issues/19)).
+* Improve error logging in status service (see [issue](https://github.com/qubic/go-data-publisher/issues/37)).
+* Improve error logging in query service (see [issue](https://github.com/qubic/archive-query-service/issues/14)).
+* Improve query service metrics (see [issue](https://github.com/qubic/archive-query-service/issues/13)).
+* Analyze pebble db compaction issues (see [issue](https://github.com/qubic/go-archiver/issues/122)).
+* Add additional elastic search node to cluster (see [issue](https://github.com/qubic/qubic-deployment/issues/21)).
+* Setup kafka production cluster (see [issue](https://github.com/qubic/qubic-deployment/issues/19)).
+
 ## Iteration 11
 
 Duration: May 20, 2025 - June 2, 2025
