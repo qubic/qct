@@ -14,6 +14,8 @@ Duration: June 3, 2025 - June 16, 2025
 
 * Prevent future problems with `QPI::Collection`s in QX by calling `cleanup()` and modifying `add()` (see [PR](https://github.com/qubic/core/pull/429)).
 * Work on adding shareholder voting support to QPI (see [issue](https://github.com/qubic/core/issues/440), [PR](https://github.com/qubic/core/pull/441)).
+* New mining algorithm May 2025, address comments and fixing issues (see [PR](https://github.com/qubic/Qiner/pull/10), [issue](https://github.com/qubic/core/issues/412)).
+* New mining algorithm May 2025, integrate and some optimization in core (see [PR](https://github.com/qubic/core/pull/439), [issue](https://github.com/qubic/core/issues/412)).
 
 #### SC Developer Support
 
