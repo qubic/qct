@@ -16,6 +16,7 @@ Duration: June 3, 2025 - June 16, 2025
 * Work on adding shareholder voting support to QPI (see [issue](https://github.com/qubic/core/issues/440), [PR](https://github.com/qubic/core/pull/441)).
 * New mining algorithm May 2025, address comments and fixing issues (see [PR](https://github.com/qubic/Qiner/pull/10), [issue](https://github.com/qubic/core/issues/412)).
 * New mining algorithm May 2025, integrate and some optimization in core (see [PR](https://github.com/qubic/core/pull/439), [issue](https://github.com/qubic/core/issues/412)).
+* Contract verification tool: implemented all general checks and set up test framework (see sub-issues of [this issue](https://github.com/qubic/core/issues/285)).
 
 #### SC Developer Support
 
