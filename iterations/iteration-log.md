@@ -12,12 +12,19 @@ Duration: June 17, 2025 - June 30, 2025
 
 #### Core
 
+* New mining algorithm May 2025, fix bugs and go live (see [PR](https://github.com/qubic/core/pull/439), [issue](https://github.com/qubic/core/issues/412)).
+* Full xmr mining at specific time (see [PR](https://github.com/qubic/core/pull/447), [issue](https://github.com/qubic/core/issues/457)).
+* Implement scheduling of revenue donation changes for future target epochs (see [PR](https://github.com/qubic/core/pull/451)).
 * Contract verification tool: added 66 unit tests covering all functionality implemented so far (see [issue](https://github.com/qubic/core/issues/432)) and fixed discovered bugs accordingly. Integrated first round of feedback.
 * Clang port of m256i tests (see [PR](https://github.com/qubic/core/pull/414))
 * Clang port network tests (see [PR](https://github.com/qubic/core/pull/449))
 * Minor bug fixes (see [PR peer refreshing](https://github.com/qubic/core/pull/444), [PR revenue calculation](https://github.com/qubic/core/pull/446), [PR comment encoding](https://github.com/qubic/core/pull/452))
-* New mining algorithm May 2025, fix bugs and go live (see [PR](https://github.com/qubic/core/pull/439), [issue](https://github.com/qubic/core/issues/412)).
-* Full xmr mining at specific time (see [PR](https://github.com/qubic/core/pull/447), [issue](https://github.com/qubic/core/issues/457)).
+* Improve QPI: add features/tests to HashMap/HashSet and add compile-time check of contract state size (see [PR](https://github.com/qubic/core/pull/443))
+* Work on shareholder voting (see [issue](https://github.com/qubic/core/issues/440) and [PR](https://github.com/qubic/core/pull/441)).
+
+#### SC Developer Support
+
+* Review of contract NOSTROMO
 
 ## Iteration 12
 
