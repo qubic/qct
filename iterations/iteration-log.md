@@ -4,6 +4,17 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 13
+
+Duration: June 17, 2025 - June 30, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Contract verification tool: added 66 unit tests covering all functionality implemented so far (see [issue](https://github.com/qubic/core/issues/432)) and fixed discovered bugs accordingly. Integrated first round of feedback.
+
+
 ## Iteration 12
 
 Duration: June 3, 2025 - June 16, 2025
