@@ -16,6 +16,8 @@ Duration: June 17, 2025 - June 30, 2025
 * Clang port of m256i tests (see [PR](https://github.com/qubic/core/pull/414))
 * Clang port network tests (see [PR](https://github.com/qubic/core/pull/449))
 * Minor bug fixes (see [PR peer refreshing](https://github.com/qubic/core/pull/444), [PR revenue calculation](https://github.com/qubic/core/pull/446), [PR comment encoding](https://github.com/qubic/core/pull/452))
+* New mining algorithm May 2025, fix bugs and go live (see [PR](https://github.com/qubic/core/pull/439), [issue](https://github.com/qubic/core/issues/412)).
+* Full xmr mining at specific time (see [PR](https://github.com/qubic/core/pull/447), [issue](https://github.com/qubic/core/issues/457)).
 
 ## Iteration 12
 
