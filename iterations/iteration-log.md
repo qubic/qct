@@ -13,8 +13,8 @@ Duration: June 17, 2025 - June 30, 2025
 #### Core
 
 * Contract verification tool: added 66 unit tests covering all functionality implemented so far (see [issue](https://github.com/qubic/core/issues/432)) and fixed discovered bugs accordingly. Integrated first round of feedback.
-* Clang port of m256i (see [PR](https://github.com/qubic/core/pull/414))
-* Clang port network tests  (see [PR](https://github.com/qubic/core/pull/449))
+* Clang port of m256i tests (see [PR](https://github.com/qubic/core/pull/414))
+* Clang port network tests (see [PR](https://github.com/qubic/core/pull/449))
 * Minor bug fixes (see [PR peer refreshing](https://github.com/qubic/core/pull/444), [PR revenue calculation](https://github.com/qubic/core/pull/446), [PR comment encoding](https://github.com/qubic/core/pull/452))
 
 ## Iteration 12
