@@ -26,6 +26,20 @@ Duration: June 17, 2025 - June 30, 2025
 
 * Review of contract NOSTROMO
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+#### RPC 2
+
+* Add identity transactions endpoint (v2) (see [issue](https://github.com/qubic/archive-query-service/issues/22)).
+* Add tick data endpoint (v2) (see [issue](https://github.com/qubic/archive-query-service/issues/25)).
+* Add status endpoint (v1) (see [issue](https://github.com/qubic/archive-query-service/issues/17)).
+* Add status endpoint (v2) (see [issue](https://github.com/qubic/archive-query-service/issues/31)).
+* SCM stuff (see [issue](https://github.com/qubic/archive-query-service/issues/27), 
+ [issue](https://github.com/qubic/archive-query-service/issues/28),
+ [issue](https://github.com/qubic/archive-query-service/issues/42), 
+ [issue](https://github.com/qubic/archive-query-service/issues/25))
+* Archive query service documentation: [swagger](<https://qubic.github.io/integration/Partners/qubic-rpc-doc.html?urls.primaryName=Qubic%20Query%20V2%20Tree#/>), [readme](https://github.com/qubic/archive-query-service/blob/main/v2/README.md)
+
 ## Iteration 12
 
 Duration: June 3, 2025 - June 16, 2025
@@ -47,7 +61,6 @@ Duration: June 3, 2025 - June 16, 2025
 * Review of contract QUTIL update (new polls feature)
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
-
 
 * Create service for new RPC 2 endpoints (see [issue](https://github.com/qubic/archive-query-service/issues/10)).
 * Add archive status endpoint to status service (see [issue](https://github.com/qubic/go-data-publisher/issues/33)).
