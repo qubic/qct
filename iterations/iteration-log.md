@@ -36,8 +36,8 @@ Duration: June 17, 2025 - June 30, 2025
 * Add status endpoint (v2) (see [issue](https://github.com/qubic/archive-query-service/issues/31)).
 * SCM stuff (see [issue](https://github.com/qubic/archive-query-service/issues/27), 
  [issue](https://github.com/qubic/archive-query-service/issues/28),
- [issue](https://github.com/qubic/archive-query-service/issues/42), 
- [issue](https://github.com/qubic/archive-query-service/issues/25))
+ [issue](https://github.com/qubic/go-data-publisher/issues/42), 
+ [issue](https://github.com/qubic/archive-query-service/issues/26))
 * Archive query service documentation: [swagger](<https://qubic.github.io/integration/Partners/qubic-rpc-doc.html?urls.primaryName=Qubic%20Query%20V2%20Tree#/>), [readme](https://github.com/qubic/archive-query-service/blob/main/v2/README.md)
 
 ## Iteration 12
