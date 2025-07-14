@@ -8,6 +8,18 @@ Listed items are completed but that does not mean that all the deliverables are 
 
 Duration: July 1, 2025 - July 14, 2025
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Contract verification tool: added checks for scope resolution (see [issue](https://github.com/qubic/core/issues/438)), adapted existing SCs to comply with the rules (see [issue](https://github.com/qubic/core/issues/428)), improved CMake files.
+
+#### SC Developer Support
+
+* Review of contract NOSTROMO
+* Contract verification tool test with contracts NOSTROMO and QSWAP
+
+
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
 * Add ingestion pipeline for computors list data (see [issue](https://github.com/qubic/qubic-deployment/issues/25), [issue](https://github.com/qubic/go-data-publisher/issues/44), and [issue](https://github.com/qubic/go-data-publisher/issues/45)).
