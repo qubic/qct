@@ -4,6 +4,19 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 14
+
+Duration: July 1, 2025 - July 14, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Add ingestion pipeline for computors list data (see [issue](https://github.com/qubic/qubic-deployment/issues/25), [issue](https://github.com/qubic/go-data-publisher/issues/44), and [issue](https://github.com/qubic/go-data-publisher/issues/45)).
+* Update elastic search and kafka production clusters (remove/add node - see [issue](https://github.com/qubic/qubic-deployment/issues/23)).
+* Release RPC 2 query endpoints (see [openapi docs](https://qubic.github.io/integration/Partners/qubic-rpc-doc.html?urls.primaryName=Qubic%20Query%20V2%20Tree) and [README](https://github.com/qubic/archive-query-service/blob/main/v2/README.md)).
+* Draft architecture for storing quorum data in long term archive.
+* SCM: add linting to repositories.
+
+
 ## Iteration 13
 
 Duration: June 17, 2025 - June 30, 2025
