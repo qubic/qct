@@ -41,8 +41,6 @@ Duration: June 17, 2025 - June 30, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-#### RPC 2
-
 * Add identity transactions endpoint (v2) (see [issue](https://github.com/qubic/archive-query-service/issues/22)).
 * Add tick data endpoint (v2) (see [issue](https://github.com/qubic/archive-query-service/issues/25)).
 * Add status endpoint (v1) (see [issue](https://github.com/qubic/archive-query-service/issues/17)).
