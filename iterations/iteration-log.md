@@ -11,6 +11,22 @@ Duration: July 1, 2025 - July 14, 2025
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 
 #### Core
+* Contract verification tool: integrated the tool with github actions for automatically building and running unit tests on pushes and pull requests (see [public repo](https://github.com/Franziska-Mueller/qubic-contract-verify)).
+
+#### CLI
+* Added github action for automatically testing the build on pushes and pull requests. This is especially useful to ensure code from SC developers does not break the compilation (and we have a cool [action output badge](https://github.com/qubic/qubic-cli?tab=readme-ov-file#qubic-cli) in the README).
+
+#### SC Developer Support
+* Coordinated with QSwap team to fix various issues before IPO and construction.
+
+
+## Iteration 14
+
+Duration: July 1, 2025 - July 14, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
 
 * Contract verification tool: added checks for scope resolution (see [issue](https://github.com/qubic/core/issues/438)), adapted existing SCs to comply with the rules (see [issue](https://github.com/qubic/core/issues/428)), improved CMake files.
 * Increase of signing difficulty to regulate ticking speed (see [PR](https://github.com/qubic/core/pull/469))
