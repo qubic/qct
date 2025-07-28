@@ -15,6 +15,7 @@ Duration: July 1, 2025 - July 14, 2025
 * Contract verification tool: added checks for scope resolution (see [issue](https://github.com/qubic/core/issues/438)), adapted existing SCs to comply with the rules (see [issue](https://github.com/qubic/core/issues/428)), improved CMake files.
 * Increase of signing difficulty to regulate ticking speed (see [PR](https://github.com/qubic/core/pull/469))
 * Compiler agnostic optimizer flags added (see [PR](https://github.com/qubic/core/pull/473))
+* Speed up mining algorithm (see [PR](https://github.com/qubic/core/pull/459), [PR](https://github.com/qubic/core/pull/466), [PR](https://github.com/qubic/core/pull/476), [issue](https://github.com/qubic/core/issues/458)).
 
 #### SC Developer Support
 
