@@ -23,7 +23,6 @@ Duration: July 15, 2025 - July 29, 2025
 
 * Implement rpc 2.0 computors list endpoint - see [issue](https://github.com/qubic/archive-query-service/issues/36).
 * Implement computors list ingestion - see [issue](https://github.com/qubic/go-data-publisher/issues/41).
-* Start working on go-archiver-v2 (pruning version) - https://github.com/qubic/go-archiver-v2
 
 
 ## Iteration 14
