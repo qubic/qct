@@ -4,9 +4,9 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
-## Iteration 14
+## Iteration 15
 
-Duration: July 1, 2025 - July 14, 2025
+Duration: July 15, 2025 - July 29, 2025
 
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 
@@ -18,6 +18,11 @@ Duration: July 1, 2025 - July 14, 2025
 
 #### SC Developer Support
 * Coordinated with QSwap team to fix various issues before IPO and construction.
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Implement rpc 2.0 computors list endpoint - see [issue](https://github.com/qubic/archive-query-service/issues/36).
+* Implement computors list ingestion - see [issue](https://github.com/qubic/go-data-publisher/issues/41).
 
 
 ## Iteration 14
