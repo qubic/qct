@@ -13,6 +13,8 @@ Duration: July 29, 2025 - August 11, 2025
 #### Core
 * Contract verification tool: created a docker GitHub action in the verification tool repo that can be run in workflows from other repos (e.g. qubic/core or SC developer forks) (see [issue](https://github.com/qubic/core/issues/428)).
 * Fixed the long-standing freeze issue in the transaction mempool implementation so it can soon be integrated into the live network (see [issue](https://github.com/qubic/core/issues/226)).
+* Prevent calling BEGIN_EPOCH again after network restart during epoch with new initial tick (see [PR](https://github.com/qubic/core/pull/500)).
+* Dividend payment: fix wrong latest incoming tick (see [PR](https://github.com/qubic/core/pull/487)).
 
 #### CLI
 * Refactoring to comply with the qubic style guide (see [PR](https://github.com/qubic/qubic-cli/pull/92)).
@@ -53,6 +55,8 @@ Duration: July 1, 2025 - July 14, 2025
 * Increase of signing difficulty to regulate ticking speed (see [PR](https://github.com/qubic/core/pull/469))
 * Compiler agnostic optimizer flags added (see [PR](https://github.com/qubic/core/pull/473))
 * Speed up mining algorithm (see [PR](https://github.com/qubic/core/pull/459), [PR](https://github.com/qubic/core/pull/466), [PR](https://github.com/qubic/core/pull/476), [issue](https://github.com/qubic/core/issues/458)).
+* Fix unresolved symbol memcpy (see [PR](https://github.com/qubic/core/pull/475)).
+* Fix duplicate type "Entity" (see [PR](https://github.com/qubic/core/pull/462)).
 
 #### SC Developer Support
 
