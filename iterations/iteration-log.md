@@ -4,9 +4,25 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 16
+
+Duration: July 29, 2025 - August 11, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+* Contract verification tool: created a docker GitHub action in the verification tool repo that can be run in workflows from other repos (e.g. qubic/core or SC developer forks) (see [issue](https://github.com/qubic/core/issues/428)).
+* Fixed the long-standing freeze issue in the transaction mempool implementation so it can soon be integrated into the live network (see [issue](https://github.com/qubic/core/issues/226)).
+
+#### CLI
+* Refactoring to comply with the qubic style guide (see [PR](https://github.com/qubic/qubic-cli/pull/92)).
+
+#### SC Developer Support
+* Review of contract VOTTUNBRIDGE (see [PR](https://github.com/qubic/core/pull/497)).
+
 ## Iteration 15
 
-Duration: July 15, 2025 - July 29, 2025
+Duration: July 15, 2025 - July 28, 2025
 
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 
