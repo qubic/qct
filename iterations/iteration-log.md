@@ -15,6 +15,8 @@ Duration: July 29, 2025 - August 11, 2025
 * Fixed the long-standing freeze issue in the transaction mempool implementation so it can soon be integrated into the live network (see [issue](https://github.com/qubic/core/issues/226)).
 * Prevent calling BEGIN_EPOCH again after network restart during epoch with new initial tick (see [PR](https://github.com/qubic/core/pull/500)).
 * Dividend payment: fix wrong latest incoming tick (see [PR](https://github.com/qubic/core/pull/487)).
+* Unify mining phase switching (see [issue](https://github.com/qubic/core/issues/460), [PR](https://github.com/qubic/core/pull/491)).
+* Support running full external mining at multiple time points (see [issue](https://github.com/qubic/core/issues/503), [PR](https://github.com/qubic/core/pull/494)).
 
 #### CLI
 * Refactoring to comply with the qubic style guide (see [PR](https://github.com/qubic/qubic-cli/pull/92)).
