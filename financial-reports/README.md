@@ -7,7 +7,7 @@ https://explorer.qubic.org/network/address/XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQ
 
 ## Latest Report
 
-[May 2025](2025-06-12-may-2025.md)
+[August 2025](2025-09-08-august-2025.md)
 
 ## History
 
