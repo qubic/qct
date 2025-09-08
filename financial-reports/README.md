@@ -7,9 +7,17 @@ https://explorer.qubic.org/network/address/XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQ
 
 ## Latest Report
 
-[May 2025](2025-06-12-may-2025.md)
+[August 2025](2025-09-08-august-2025.md)
 
 ## History
+
+[August 2025](2025-09-08-august-2025.md)
+
+[July 2025](2025-09-06-july-2025.md)
+
+[June 2025](2025-09-05-june-2025.md)
+
+[May 2025](2025-06-12-may-2025.md)
 
 [April 2025](2025-06-12-april-2025.md)
 
