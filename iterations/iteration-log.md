@@ -4,6 +4,31 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 18
+
+Duration: August 26, 2025 - September 8, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+* Fixed some variable overflow issues when running with high `NUMBER_OF_TRANSACTIONS_PER_TICK` (needed for 1:1 transaction throughput test)
+
+#### CLI
+* Adapted the code to avoid stack overflows with high `NUMBER_OF_TRANSACTIONS_PER_TICK` (see [PR](https://github.com/qubic/qubic-cli/pull/95)) (needed for 1:1 transaction throughput test)
+
+#### SC Developer Support
+* Review of contract QDRAW (see [PR](https://github.com/qubic/core/pull/514))
+
+## Iteration 17
+
+Duration: August 12, 2025 - August 25, 2025
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+* Contract verification tool is now running automatically in the qubic/core repo on pushes and pull requests to `main` or `develop` that change/add an SC file (see [action runs](https://github.com/qubic/core/actions/workflows/contract-verify.yml))
+* Updated contract guidelines to reflect the new process using the verification tool (see [PR](https://github.com/qubic/core/pull/512))
+
 ## Iteration 16
 
 Duration: July 29, 2025 - August 11, 2025
