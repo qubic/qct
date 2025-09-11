@@ -28,6 +28,8 @@ Duration: August 12, 2025 - August 25, 2025
 #### Core
 * Contract verification tool is now running automatically in the qubic/core repo on pushes and pull requests to `main` or `develop` that change/add an SC file (see [action runs](https://github.com/qubic/core/actions/workflows/contract-verify.yml))
 * Updated contract guidelines to reflect the new process using the verification tool (see [PR](https://github.com/qubic/core/pull/512))
+* Fixed issue relate to FourQ functions with VS2022 version 17.14 (see [PR](https://github.com/qubic/core/pull/517))
+* Fixed delay score function failed to run (see [PR](https://github.com/qubic/core/pull/518), [PR](https://github.com/qubic/core/pull/519))
 
 ## Iteration 16
 
