@@ -8,7 +8,19 @@ Listed items are completed but that does not mean that all the deliverables are 
 
 Duration: September 9, 2025 - September 22, 2025
 
-## [Integration Team](https://github.com/orgs/qubic/projects/21)
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Contract verification tool: added checks for types used as input/output struct for contract functions and procedures (see [issue](https://github.com/qubic/core/issues/434) and [PR](https://github.com/Franziska-Mueller/qubic-contract-verify/pull/1)).
+* Fixed an issue with multi-epoch IPOs by only allowing contract IPO in the epoch immediately before construction (see [issue](https://github.com/qubic/core/issues/483)).
+* Fixed potential overflow bugs in QUtil (see [PR](https://github.com/qubic/core/pull/548)) and Qx (see [PR](https://github.com/qubic/core/pull/532)).
+
+#### SC Developer Support
+* Review of contract RandomLottery (see [PR](https://github.com/qubic/core/pull/552)).
+* Updated documentation for contract development.
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
 * Archiver v2: create new database on epoch change (see [issue](https://github.com/qubic/go-archiver-v2/issues/2)).
 * Add computors list endpoint to query service v1 (see [issue](https://github.com/qubic/archive-query-service/issues/40)).
