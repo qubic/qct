@@ -15,6 +15,7 @@ Duration: September 9, 2025 - September 22, 2025
 * Contract verification tool: added checks for types used as input/output struct for contract functions and procedures (see [issue](https://github.com/qubic/core/issues/434) and [PR](https://github.com/Franziska-Mueller/qubic-contract-verify/pull/1)).
 * Fixed an issue with multi-epoch IPOs by only allowing contract IPO in the epoch immediately before construction (see [issue](https://github.com/qubic/core/issues/483)).
 * Fixed potential overflow bugs in QUtil (see [PR](https://github.com/qubic/core/pull/548)) and Qx (see [PR](https://github.com/qubic/core/pull/532)).
+* Speed up score computation and increase score's ticks to 1000 (see [issue](https://github.com/qubic/core/issues/458) and [PR](https://github.com/qubic/core/pull/553)).
 
 #### SC Developer Support
 * Review of contract RandomLottery (see [PR](https://github.com/qubic/core/pull/552)).
