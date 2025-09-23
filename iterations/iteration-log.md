@@ -4,6 +4,20 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 19
+
+Duration: September 9, 2025 - September 22, 2025
+
+## [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Archiver v2: create new database on epoch change (see [issue](https://github.com/qubic/go-archiver-v2/issues/2)).
+* Add computors list endpoint to query service v1 (see [issue](https://github.com/qubic/archive-query-service/issues/40)).
+* Update integration documentation (see [issue](https://github.com/qubic/archive-query-service/issues/40)).
+* Mark archiver API as deprecated and fix some documentation (see [issue](https://github.com/qubic/go-archiver/issues/170) and [issue](https://github.com/qubic/go-archiver/issues/168)).
+* Enhance query service documentation (see [issue](https://github.com/qubic/archive-query-service/issues/42)).
+* Fix tick vote digest validation (see [issue](https://github.com/qubic/go-archiver/issues/173)).
+* Review docs PR.
+
 ## Iteration 18
 
 Duration: August 26, 2025 - September 8, 2025
