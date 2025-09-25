@@ -16,10 +16,12 @@ Duration: September 9, 2025 - September 22, 2025
 * Fixed an issue with multi-epoch IPOs by only allowing contract IPO in the epoch immediately before construction (see [issue](https://github.com/qubic/core/issues/483)).
 * Fixed potential overflow bugs in QUtil (see [PR](https://github.com/qubic/core/pull/548)) and Qx (see [PR](https://github.com/qubic/core/pull/532)).
 * Speed up score computation and increase score's ticks to 1000 (see [issue](https://github.com/qubic/core/issues/458) and [PR](https://github.com/qubic/core/pull/553)).
+* Add DistributeQuToShareholders() to QUTIL (see [issue](https://github.com/qubic/core/issues/537) and [PR](https://github.com/qubic/core/pull/539)).
 
 #### SC Developer Support
 * Review of contract RandomLottery (see [PR](https://github.com/qubic/core/pull/552)).
 * Updated documentation for contract development.
+* Review smart contract development documentation and examples of Qubic docs project (see [PR](https://github.com/qubic/docs/pull/41)).
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
