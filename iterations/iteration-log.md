@@ -10,8 +10,8 @@ Duration: September 23, 2025 - October 07, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-* Archiver v2: add API endpoints for consuming services (see [issue](https://github.com/qubic/go-archiver-v2/issues/4)).
-* Archiver v2: make number of active epochs configurable (see [issue](https://github.com/qubic/go-archiver-v2/issues/3)).
+* Archiver v2: add API endpoints for consuming services (see [issue](https://github.com/qubic/go-archiver-v2/issues/3)).
+* Archiver v2: make number of active epochs configurable (see [issue](https://github.com/qubic/go-archiver-v2/issues/4)).
 * Implement database migration tool for migrating to archiver v2 format (see [issue](https://github.com/qubic/archiver-db-migrator/issues/2)).
 * Update status service and data publishers to work with archiver v2 (see [issue](https://github.com/qubic/go-data-publisher/issues/56) 
   and [issue](https://github.com/qubic/go-data-publisher/issues/51)).
