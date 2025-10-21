@@ -4,6 +4,22 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 21
+
+Duration: October 08, 2025 - October 21, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Publish processed tick intervals to elastic (see [issue](https://github.com/qubic/go-data-publisher/issues/53)).
+* Update status service to get tick intervals from elastic (see [issue](https://github.com/qubic/go-data-publisher/issues/54)).
+* Add metrics to archiver-v2 and go-qubic-nodes (see [issue](https://github.com/qubic/go-archiver-v2/issues/5) and [issue](https://github.com/qubic/go-qubic-nodes/issues/23)).
+* Verify and store migrated archiver data (see [issue](https://github.com/qubic/archiver-db-migrator/issues/5)).
+* Fix storing empty tick data in migrated data (see [issue](https://github.com/qubic/archiver-db-migrator/issues/4)).
+* Adapt event service to asset event changes (see [issue](https://github.com/qubic/go-events/issues/17) and [issue](https://github.com/qubic/go-events/issues/18)).
+* Adapt qx service to asset issuance event changes (see [issue](https://github.com/qubic/qx-service/issues/14)).
+* Adapt go transfers service to asset issuance event changes (see [issue](https://github.com/qubic/go-transfers/issues/9)).
+* Update architecture diagrams (see [issue](https://github.com/qubic/qubic-deployment/issues/33)).
+
 ## Iteration 20
 
 Duration: September 23, 2025 - October 07, 2025
