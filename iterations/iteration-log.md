@@ -25,6 +25,7 @@ Duration: October 08, 2025 - October 21, 2025
 #### Core
 * Adapt to 64bits nonce custom mining (see [issue](https://github.com/qubic/core/issues/492) [PR](https://github.com/qubic/core/pull/564) [PR](https://github.com/qubic/outsourced-computing/pull/14))
 * Conceptual work for implementation of smart contract execution fee
+* New pending transaction pool with transaction prioritization (see [issue](https://github.com/qubic/core/issues/226), [issue](https://github.com/qubic/core/issues/205), and [PR](https://github.com/qubic/core/pull/563))
 
 ## Iteration 20
 
