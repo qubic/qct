@@ -20,6 +20,11 @@ Duration: October 08, 2025 - October 21, 2025
 * Adapt go transfers service to asset issuance event changes (see [issue](https://github.com/qubic/go-transfers/issues/9)).
 * Update architecture diagrams (see [issue](https://github.com/qubic/qubic-deployment/issues/33)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+* Adapt to 64bits nonce custom mining (see [issue](https://github.com/qubic/core/issues/492) [PR](https://github.com/qubic/core/pull/564) [PR](https://github.com/qubic/outsourced-computing/pull/14))
+
 ## Iteration 20
 
 Duration: September 23, 2025 - October 07, 2025
