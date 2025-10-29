@@ -2,6 +2,7 @@
 
 >[!NOTE] 
 > THIS IS THE DRAFT DOCUMENT FOR PUBLIC DISCUSSION
+> The XXX, YYY, ZZZ will be replaced based on the received feedback from community/computors
 
 ## Proposal
 Send XXX billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEITGGEWZDIBRAIYWPGEONG` to support the further development of Qubic Core.

@@ -5,12 +5,11 @@ With Q4 we want to strengthen the tech organization, please find below the lates
 
 ## Estimated Monthly Costs
 
-The total estimated max monthly costs are `125'000 $`.
+The total estimated monthly costs are `~125'000 $`. Many team members do not work full time or on a per project/hour base. Those costs are estimated.
 
 ## Current Members of QCT
 
 ### Core Development
-> The core development team is **complete**.
 
 The Core team builds and maintains the Qubic Core and CLI. It also provides support to ecosystem developers working with smart contracts.
 
@@ -21,14 +20,13 @@ The Core team builds and maintains the Qubic Core and CLI. It also provides supp
 | @fnordspace          | Developer                |             ~50-80% |        Paid |                        |
 | @raika sternensucher | Developer                |             ~80% |        Paid | |
 | @feiyu             | Lite Node Developer |            ~100% |        Paid |                  |
-| @dkat                | Software Architect       |         ~80% |      Unpaid |                        |
+| @dkat                | Software Architect       |         ~40-80% |      Paid |                        |
 | @Come-from-Beyond    | Lead Protocol Engineer   |          ~0-100% |      Unpaid |                        |
 | @joetom              | Software Architect       |          ~20-50% |      Unpaid |                        |
 | Open position | Developer |         ~80-100% |        Paid |         |
 
 >[!NOTE] 
->We are looking for devOp engineers!
-
+>We are looking for another core dev/engineer!
 
 
 ### Integration
@@ -84,7 +82,7 @@ The Overhead team is composed of project managers and administrative staff.
 | @sally       | Product Owner / PM |   ~80-100% |        Paid |         |
 
 
-### Ad Hoc Support (NEW)
+### Ad Hoc Support
 
 Individuals providing temporary support for specific needs will be listed here.
 
