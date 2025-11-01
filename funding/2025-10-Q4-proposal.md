@@ -1,15 +1,11 @@
 # Proposal to Fund the Development of the Qubic Core
 
->[!NOTE] 
-> THIS IS THE DRAFT DOCUMENT FOR PUBLIC DISCUSSION
-> The XXX, YYY, ZZZ will be replaced based on the received feedback from community/computors
-
 ## Proposal
-Send XXX billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEITGGEWZDIBRAIYWPGEONG` to support the further development of Qubic Core.
+Send 646 billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEITGGEWZDIBRAIYWPGEONG` to support the further development of Qubic Core.
 
 > Option 0: no
 
-> Option 1: yes, XXX billion QUBIC
+> Option 1: yes, 646 billion QUBIC
 
 
 ## How We Used Past Funding
@@ -22,14 +18,17 @@ Send XXX billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEI
 
 ## Overview
 
-We are requesting XXX billion QUBIC to support the continued development of the Qubic Core.
-Taking into account current development needs and potential market fluctuations, the requested funding aims to cover development costs equivalent to XXX USDT over the next YYY months.
-The Qubic amount was calculated using a valuation of ZZZ USDT per billion.
+We are requesting **676 billion QUBIC** to support the continued development of the Qubic Core.
+
+Taking into account current development needs and potential market fluctuations, the requested funding aims to cover development costs equivalent to **840k\$** over the next **6 months**. (~140k\$/month)
+
+The Qubic amount was calculated using a valuation of **1300 USD per billion**.
 
 The requested funding will be allocated to:
 - Pay team salaries
 - Cover service and server expenses necessary for QCT operations (e.g. RPC/API/Archive infra)
 - Cover the costs to run several test nets
+- Cover [Community Contributions](../docs/community-contributions.md)
 
 Our development team is working on critical improvements and features essential for the long-term success of Qubic.
 Ensuring financial stability allows us to focus on innovation, security, and scalability without disruption.
@@ -41,7 +40,7 @@ Ensuring financial stability allows us to focus on innovation, security, and sca
 - Operates and maintains the Qubic Testnet
 - Drives versioning and release management for the Qubic Core and Integration Layer
 - Maintains all software developed by Qubic Core Technology
-- Produces clear documentation explaining how the software works, how to use it, and the logic behind it—both in code comments and external guides
+- Produces clear documentation explaining how the software works, how to use it, and the logic behind it — both in code comments and external guides
 - Provides technical support to other ecosystem builders building on top of Qubic
 - Develops and maintains the basic Explorer frontend (explorer.qubic.org)
 - Develops and maintains the basic Wallets (wallet.qubic.org, Android, iOs)
@@ -82,7 +81,7 @@ In [the about section](../about/README.md) you can find much more information ab
 
 ## Cost Break Down
 Each month costs:
-- ~7000$ for Infrastructure, including servers, test environments, and other non-personnel operational expenses. (effective costs are documented [in the financial reports](https://github.com/qubic/qct/tree/main/financial-reports))
+- ~5000$ for Infrastructure, including servers, test environments, and other non-personnel operational expenses. (effective costs are documented [in the financial reports](https://github.com/qubic/qct/tree/main/financial-reports))
 - ~91K$ for team salaries. More details about paid/unpaid team members, visit [here](https://github.com/qubic/qct/tree/main/org-reports).
 
 >[!NOTE] 
@@ -90,11 +89,11 @@ Each month costs:
 > - Team members may work full-time or be compensated on an hourly basis.</br>
 > - Salaries are paid either in USD or QUBIC, depending on individual agreements.</br>
 
-### Changes to prvious budget request
+### Changes to previous budget request
 
-The infrastructure costs are higher becuase:
+The infrastructure costs are higher because:
 - It now includes a production ready test net.
-- The operational costs have increased (e.g. more server load; ant ddos protection)
+- The operational costs have increased (e.g. more server load; anti ddos protection)
 
 The salary costs are higher because:
 - Costs of client/frontend team is included
