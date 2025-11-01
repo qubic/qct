@@ -18,7 +18,7 @@ Send 646 billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEI
 
 ## Overview
 
-We are requesting **676 billion QUBIC** to support the continued development of the Qubic Core.
+We are requesting **646 billion QUBIC** to support the continued development of the Qubic Core.
 
 Taking into account current development needs and potential market fluctuations, the requested funding aims to cover development costs equivalent to **840k\$** over the next **6 months**. (~140k\$/month)
 
