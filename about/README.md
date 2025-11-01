@@ -15,11 +15,11 @@ During the first STECO period (oct23-apr24) QCT was operated as a tech departmen
 This includes the Qubic core (https://github.com/Qubic/core) but also tools around needed to grow Qubic (CLI, wallet, explorer, archive, RPC/API and some libraries). The tech team was also heavily involved in integrations for exchanges or wallets.
 
 
-This organisation was to bootsrap all the needed tech to the users. While all those software was needed to ramp up Qubic and to enable the community to interact with Qubic easily. It was a classical organization how one would know it from companies.
+This organization was to bootstrap all the needed tech to the users. While all those software was needed to ramp up Qubic and to enable the community to interact with Qubic easily. It was a classical organization how one would know it from companies.
 
-To promote the spirit of decentralization the existing centralized STECO organization was disolved and at that place Workgroups were established.
+To promote the spirit of decentralization the existing centralized STECO organization was dissolved and at that place workgroup's were established.
 
-One of those workgroups is `Qubic Core Technology` (QCT). This document shall describe what QCT is about.
+One of those workgroup's is `Qubic Core Technology` (QCT). This document shall describe what QCT is about.
 
 
 ## Architecture Overview
@@ -29,7 +29,7 @@ The architecture overview give a high level insight on the Qubic layers and what
 ![Qubic Highlevel Architecture Overview](assets/architecture-overview.png "Architecture Overview")
 
 ## General Organization
-An organizational structure is something dynamic. Below you find the high level strucutre how we are organized. The latest details/state is documented in [the org reports](../org-reports/README.md).
+An organizational structure is something dynamic. Below you find the high level structure how we are organized. The latest details/state is documented in [the org reports](../org-reports/README.md).
 
 ![QCT Highlevel Organization Overview](assets/organization-overview.png "Organization Overview")
 
@@ -38,7 +38,7 @@ An organizational structure is something dynamic. Below you find the high level 
 QCT is working on various products and services:
 
 - Develops and maintains the Qubic Core and Qubic Network protocol
-- Supports developpers of smart contracts, including partial code reviews and specific support for projects
+- Supports developers of smart contracts, including partial code reviews and specific support for projects
 - Builds and operates the Qubic Integration Layer, enabling wallets, exchanges, and other applications to access the Qubic network
 - Operates and maintains the Qubic Testnet
 - Drives versioning and release management for the Qubic Core and Integration Layer
@@ -63,11 +63,11 @@ Below some of our main products:
 - Qubic Events (https://github.com/qubic/go-events)
 - Qubic TS Library (https://github.com/qubic/ts-library)
 - Explorer frontend
-- Wallet frontends
+- Wallet frontend
 - Quorum Proposal frontend
 - And many other tools around Qubic Core
 
 ## Open Source
-All Software developed, used and maintained by QCS is open source.
+All Software developed, used and maintained by QCT is open source.
 
 The Github entrypoint is https://github.com/qubic.
