@@ -14,7 +14,7 @@ Send 646 billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEI
 
 - Core and Integration teams work in bi-weekly iterations. Reports detailing the achievements of each team per iteration can be found [here](https://github.com/qubic/qct/blob/main/iterations/iteration-log.md).
 
-- Monthly financial reports can be found [here](https://github.com/qubic/qct/tree/financial-2025/financial-reports).
+- Monthly financial reports can be found [here](../financial-reports).
 
 ## Overview
 
