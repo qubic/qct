@@ -90,4 +90,4 @@ Individuals providing temporary support for specific needs will be listed here.
 | ---------------- | --------------- | --------: | ------------: | --------------------------------- |
 | @andyqus   | Web Developer          |    - |          Paid | Web Projects            |
 | @icyblob             | Software Tools Developer |            - |        Paid | Project based                       |
-| @onradr(Gandalf) | Project Manager |      ~10% |        Unpaid | Outsourced computing (Monero POC) and other projects |
+| @gandalf_qubic(Gandalf) | Project Manager |      ~10% |        Unpaid | Outsourced computing (Monero POC) and other projects |
