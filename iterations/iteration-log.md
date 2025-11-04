@@ -4,6 +4,25 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 22
+
+Duration: October 22, 2025 - November 4, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Add `/v1/latestTick` endpoint to query service v1 (see [issue](https://github.com/qubic/archive-query-service/issues/51)).
+* Add `/v2/epochs/{epoch}/ticks` endpoint to query service v1 (see [issue](https://github.com/qubic/archive-query-service/issues/50)).
+* Add `/v2/epochs/{epoch}/empty-ticks` endpoint to query service v1 (see [issue](https://github.com/qubic/archive-query-service/issues/52)).
+* Add initial tick and epoch to `/getLastProcessedTick` endpoint (see [issue](https://github.com/qubic/archive-query-service/issues/55)).
+* Add initial tick to `/v1/status` endpoint of status service (see [issue](https://github.com/qubic/go-data-publisher/issues/61)).
+* Adapt go transfers service to new asset ownership and possession change event structure (see [issue](https://github.com/qubic/go-transfers/issues/8)).
+* Adapt qx service to new asset ownership and possession change event structure (see [issue](https://github.com/qubic/qx-service/issues/15)).
+* Fix duplicate entries in asset owners list (see [issue](https://github.com/qubic/qubic-stats-service/issues/17)).
+* Fix timeout in stats service (see hotfix [issue](https://github.com/qubic/qubic-stats-service/issues/20)).
+* Change query service v1 package name (see [issue](https://github.com/qubic/archive-query-service/issues/59)).
+* Backup ex01 archiver data.
+* Create concept for new rpc endpoint naming.
+
 ## Iteration 21
 
 Duration: October 08, 2025 - October 21, 2025
