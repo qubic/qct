@@ -23,6 +23,17 @@ Duration: October 22, 2025 - November 4, 2025
 * Backup ex01 archiver data.
 * Create concept for new rpc endpoint naming.
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+- Finish implementation of shareholder proposal voting, including implementation in QUTIL (see [issue](https://github.com/qubic/core/issues/440), [PR](https://github.com/qubic/core/pull/441)).
+- Design work on oracles.
+
+#### CLI
+
+- Add support of shareholder proposal voting ([PR](https://github.com/qubic/qubic-cli/pull/102)).
+
 ## Iteration 21
 
 Duration: October 08, 2025 - October 21, 2025
