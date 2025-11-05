@@ -29,6 +29,9 @@ Duration: October 22, 2025 - November 4, 2025
 
 - Finish implementation of shareholder proposal voting, including implementation in QUTIL (see [issue](https://github.com/qubic/core/issues/440), [PR](https://github.com/qubic/core/pull/441)).
 - Design work on oracles.
+- Fix alignment issue when doing save/load reported by operators part 1 (see [issue](https://github.com/qubic/core/issues/603), [PR](https://github.com/qubic/core/pull/601)).
+- Support save snapshot from qubic-cli (see [issue](https://github.com/qubic/core/issues/603), [PR](https://github.com/qubic/core/pull/602), [PR](https://github.com/qubic/qubic-cli/pull/101)).
+- Benchmark memcpy speed in UEFI environment(see [issue](https://github.com/qubic/core/issues/589)).
 
 #### CLI
 
