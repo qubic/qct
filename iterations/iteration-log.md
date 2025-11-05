@@ -32,10 +32,15 @@ Duration: October 22, 2025 - November 4, 2025
 - Fix alignment issue when doing save/load reported by operators part 1 (see [issue](https://github.com/qubic/core/issues/603), [PR](https://github.com/qubic/core/pull/601)).
 - Support save snapshot from qubic-cli (see [issue](https://github.com/qubic/core/issues/603), [PR](https://github.com/qubic/core/pull/602), [PR](https://github.com/qubic/qubic-cli/pull/101)).
 - Benchmark memcpy speed in UEFI environment(see [issue](https://github.com/qubic/core/issues/589)).
+- Fix two issues in pending txs pool (reject duplicate digests [PR](https://github.com/qubic/core/pull/597), reset tick after loading from snapshot [commit](https://github.com/qubic/core/commit/429909392c605661eb7a47d6d5b222cafff0c480)).
+- Create missing contract shares from past IPOs with final price 0 (CCF, GQMPROP, SWATCH) and give them to contracts themselves (see [issue](https://github.com/qubic/core/issues/581)).
+- Add contract error at the end of IPO if final price was 0 and make sure the error persists on node restart (see [issue](https://github.com/qubic/core/issues/584)).
+- Add functionality to query fee reserve and burn for different contracts (QPI and QUtil) (see [issue](https://github.com/qubic/core/issues/582), [issue](https://github.com/qubic/core/issues/587)).
 
 #### CLI
 
 - Add support of shareholder proposal voting ([PR](https://github.com/qubic/qubic-cli/pull/102)).
+- Add commands to query contract fee reserve and burn for a specific contract (see [PR](https://github.com/qubic/qubic-cli/pull/103)).
 
 ## Iteration 21
 
