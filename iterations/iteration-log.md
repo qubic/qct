@@ -10,7 +10,7 @@ Duration: November 5, 2025 - November 18, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-Mainly work related to finalizing code and infrastructure changes for RPC endpoiont changes.
+Main focus was work related to finalizing code and infrastructure for upcoming RPC endpoint changes.
 
 * PoC: query service v2 caching (see [issue](https://github.com/qubic/archive-query-service/issues/62)).
 * Refactor rich list caching in stats service (see [issue](https://github.com/qubic/qubic-stats-service/issues/21)).
