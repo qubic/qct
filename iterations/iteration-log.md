@@ -4,6 +4,31 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 23
+
+Duration: November 5, 2025 - November 18, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+Mainly work related to finalizing code and infrastructure changes for RPC endpoiont changes.
+
+* PoC: query service v2 caching (see [issue](https://github.com/qubic/archive-query-service/issues/62)).
+* Refactor rich list caching in stats service (see [issue](https://github.com/qubic/qubic-stats-service/issues/21)).
+* Remove archiver v1 dependency from stats service (see [issue](https://github.com/qubic/qubic-stats-service/issues/22)).
+* Remove padding from get assets by universe index query (see [issue](https://github.com/qubic/go-node-connector/issues/22)).
+* Add archiver v1 compatibility to status service (see [issue](https://github.com/qubic/go-data-publisher/issues/63)).
+* Bugfix: query service return codes (see [issue](https://github.com/qubic/archive-query-service/issues/65)).
+* Bugfix: empty ticks pagination (see [issue](https://github.com/qubic/archive-query-service/issues/61)).
+* Bugfix: check event tick number in events service (see [issue](https://github.com/qubic/go-events/issues/23)).
+* Bugfix: archiver v2 start tick interval (see [issue](https://github.com/qubic/go-archiver-v2/issues/10)).
+* Bugfix: archiver v2 database pruning on epoch change (see [issue](https://github.com/qubic/go-archiver-v2/issues/7)).
+* Bugfix: change query service endpoint name (see [issue](https://github.com/qubic/archive-query-service/issues/68)).
+* PoC: new rpc endpoint proxying (see [issue](https://github.com/qubic/qubic-deployment/issues/45)).
+* Migrate and backup ex01 archiver data (see [issue](https://github.com/qubic/qubic-deployment/issues/38)).
+* Deployment and maintenance tasks (see [issue](https://github.com/qubic/qubic-deployment/issues/46), 
+  [issue](https://github.com/qubic/qubic-deployment/issues/44), [issue](https://github.com/qubic/qubic-http/issues/37),
+  [issue](https://github.com/qubic/qubic-deployment/issues/42), [issue](https://github.com/qubic/qubic-deployment/issues/43)).
+
 ## Iteration 22
 
 Duration: October 22, 2025 - November 4, 2025
