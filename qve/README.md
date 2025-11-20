@@ -43,12 +43,19 @@ If you discover a vulnerability:
 
 ## Structure
 
-Each vulnerability or exposure is documented as a separate file inside this folder.  
-Suggested format:
+### QVE Entries
+
+Each vulnerability or exposure is documented as a separate file inside this folder.
+Suggested format: `QVE-YYYY-NNN.md` or `QVE-YYYY-NNN.pdf`
 
 Where:
 - `YYYY` = Year of discovery
 - `NNN` = Incremental number (e.g., 001, 002, ...)
+
+### Audit Reports
+
+Comprehensive security assessments and penetration test reports from external security firms are stored in the **[audits/](audits/)** subfolder.
+See the [audits README](audits/README.md) for more information about available audit reports
 
 ---
 
