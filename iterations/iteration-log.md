@@ -4,6 +4,23 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 24
+
+Duration: November 19, 2025 - December 02, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Configure new RPC paths (see [issue](https://github.com/qubic/qubic-deployment/issues/40), and [issue](https://github.com/qubic/qubic-deployment/issues/39)).
+* Add another haproxy instance (see [issue](https://github.com/qubic/qubic-deployment/issues/50)).
+* Update haproxy health check for backend servers (see [issue](https://github.com/qubic/qubic-deployment/issues/52)).
+* Add haproxy metrics (see [issue](https://github.com/qubic/qubic-deployment/issues/57)).
+* Updates to pagination validation for query service v1 and v2 (see [issue](https://github.com/qubic/archive-query-service/issues/73), 
+  [issue](https://github.com/qubic/archive-query-service/issues/63), and [issue](https://github.com/qubic/archive-query-service/issues/78)).
+* SCM: add vulnerability checks (see [issue](https://github.com/qubic/archive-query-service/issues/80)).
+* Update documentation (see [issue](https://github.com/qubic/qubic-deployment/issues/47),
+  [PR](https://github.com/qubic/integration/pull/75), and
+  [issue](https://github.com/qubic/qubic-http/issues/38)).
+
 ## Iteration 23
 
 Duration: November 5, 2025 - November 18, 2025
