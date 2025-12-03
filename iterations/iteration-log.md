@@ -21,6 +21,21 @@ Duration: November 19, 2025 - December 02, 2025
   [PR](https://github.com/qubic/integration/pull/75), and
   [issue](https://github.com/qubic/qubic-http/issues/38)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Add node request/response for list of active IPOs (see [core PR](https://github.com/qubic/core/pull/645) and [cli PR](https://github.com/qubic/qubic-cli/pull/107)).
+* Add fast sorting algorithm in preparation for quorum value computation (see [PR](https://github.com/qubic/core/pull/630)).
+* QX: Add `POST_INCOMING_TRANSFER` system procedure to enable revenue donations (see [PR](https://github.com/qubic/core/pull/642)).
+* Unit tests: reduce virtual memory size for logging (see [PR](https://github.com/qubic/core/pull/641)).
+
+
+#### Developer Support
+
+* Review of contract QRaffle.
+* Review of new periodic CCF feature.
+
 ## Iteration 23
 
 Duration: November 5, 2025 - November 18, 2025
