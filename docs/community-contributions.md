@@ -2,7 +2,7 @@
 # Contributor Ruleset and Paid Contribution Process
 
 >[!NOTE] 
-> THIS IS THE DRAFT DOCUMENT AND NOT YET ACTIVE
+> THIS IS THE DRAFT DOCUMENT AND MAY CHANGE
 
 
 ## 1. Scope
