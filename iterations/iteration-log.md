@@ -4,6 +4,32 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 25
+
+Duration: December 03, 2025 - December 16, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+#### API
+
+* Load test integration APIs (see [issue](https://github.com/qubic/qubic-deployment/issues/66)).
+* Add default sorting to transactions index in elastic (see [issue](https://github.com/qubic/qubic-deployment/issues/63)).
+* Remove offset restrictions from pagination (see [issue](https://github.com/qubic/archive-query-service/issues/84)).
+* Proxy: restrict max connection size and split based on source domain (see [issue](https://github.com/qubic/qubic-deployment/issues/64)).
+* Investigate cache memory usage (see [issue](https://github.com/qubic/integration/issues/65)).
+* Calculate elastic cluster requirements (see [issue](https://github.com/qubic/qubic-deployment/issues/67)).
+* Replace old archivers with archiver v2 (see [issue](https://github.com/qubic/qubic-deployment/issues/70)).
+* Inform stakeholders of deprecated archiver endpoints (see [issue](https://github.com/qubic/qubic-deployment/issues/61)
+  and [issue](https://github.com/qubic/qubic-deployment/issues/62)).
+* Update openapi docs for Query API (see [issue](https://github.com/qubic/qubic-deployment/issues/59)).
+* Add code for retrieving active ipos (see [issue](https://github.com/qubic/go-node-connector/issues/30)
+  and [issue](https://github.com/qubic/qubic-http/issues/39)).
+* Publish tick intervals from all instances (see [issue](https://github.com/qubic/qubic-deployment/issues/60)).
+* Fix parallel consuming of tick intervals (see [issue](https://github.com/qubic/go-data-publisher/issues/67)).
+* Fix loading of correct archiver databases on startup (see [issue](https://github.com/qubic/go-archiver-v2/issues/12)).
+* Backup and migrate ex02 archiver data (see [issue](https://github.com/qubic/integration/issues/65)).
+* Prepare onboarding material for new DevOps engineer (see [issue](https://github.com/qubic/qubic-deployment/issues/37)).
+
 ## Iteration 24
 
 Duration: November 19, 2025 - December 02, 2025
