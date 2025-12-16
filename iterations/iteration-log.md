@@ -12,11 +12,11 @@ Duration: December 03, 2025 - December 16, 2025
 
 #### Integration API
 
-* Load test integration APIs (see [issue](https://github.com/qubic/qubic-deployment/issues/66)).
+* Load test integration APIs (see [issue](https://github.com/qubic/qubic-deployment/issues/56)).
 * Add default sorting to transactions index in elastic (see [issue](https://github.com/qubic/qubic-deployment/issues/63)).
 * Remove offset restrictions from pagination (see [issue](https://github.com/qubic/archive-query-service/issues/84)).
 * Proxy: restrict max connection size and split based on source domain (see [issue](https://github.com/qubic/qubic-deployment/issues/64)).
-* Investigate cache memory usage (see [issue](https://github.com/qubic/integration/issues/65)).
+* Investigate cache memory usage (see [issue](https://github.com/qubic/qubic-deployment/issues/65)).
 * Calculate elastic cluster requirements (see [issue](https://github.com/qubic/qubic-deployment/issues/67)).
 * Replace old archivers with archiver v2 (see [issue](https://github.com/qubic/qubic-deployment/issues/70)).
 * Inform stakeholders of deprecated archiver endpoints (see [issue](https://github.com/qubic/qubic-deployment/issues/61)
