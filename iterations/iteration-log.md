@@ -10,7 +10,7 @@ Duration: December 03, 2025 - December 16, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-#### API
+#### Integration API
 
 * Load test integration APIs (see [issue](https://github.com/qubic/qubic-deployment/issues/66)).
 * Add default sorting to transactions index in elastic (see [issue](https://github.com/qubic/qubic-deployment/issues/63)).
@@ -22,6 +22,9 @@ Duration: December 03, 2025 - December 16, 2025
 * Inform stakeholders of deprecated archiver endpoints (see [issue](https://github.com/qubic/qubic-deployment/issues/61)
   and [issue](https://github.com/qubic/qubic-deployment/issues/62)).
 * Update openapi docs for Query API (see [issue](https://github.com/qubic/qubic-deployment/issues/59)).
+
+#### Other
+
 * Add code for retrieving active ipos (see [issue](https://github.com/qubic/go-node-connector/issues/30)
   and [issue](https://github.com/qubic/qubic-http/issues/39)).
 * Publish tick intervals from all instances (see [issue](https://github.com/qubic/qubic-deployment/issues/60)).
