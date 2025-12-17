@@ -33,6 +33,14 @@ Duration: December 03, 2025 - December 16, 2025
 * Backup and migrate ex02 archiver data (see [issue](https://github.com/qubic/integration/issues/65)).
 * Prepare onboarding material for new DevOps engineer (see [issue](https://github.com/qubic/qubic-deployment/issues/37)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Add contract execution fees (deduction disabled in mainnet for first testing phase) (see [PR](https://github.com/qubic/core/pull/683)).
+* Refactor network message types to consolidate all ids in a single header (see [PR](https://github.com/qubic/core/pull/656)).
+
+
 ## Iteration 24
 
 Duration: November 19, 2025 - December 02, 2025
