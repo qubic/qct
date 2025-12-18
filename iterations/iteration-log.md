@@ -39,6 +39,8 @@ Duration: December 03, 2025 - December 16, 2025
 
 * Add contract execution fees (deduction disabled in mainnet for first testing phase) (see [PR](https://github.com/qubic/core/pull/683)).
 * Refactor network message types to consolidate all ids in a single header (see [PR](https://github.com/qubic/core/pull/656)).
+* Implement New Neural Network Mining Algorithm (Binary Addition Learning) (see [PR](https://github.com/qubic/Qiner/pull/17)).
+* Establish communication channel between core node and OM node (see [PR](https://github.com/qubic/oracle-machine/pull/1)).
 
 
 ## Iteration 24
