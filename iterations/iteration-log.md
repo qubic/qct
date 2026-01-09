@@ -4,6 +4,18 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 26
+
+Duration: December 17, 2025 - December 23, 2025
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* RPC 2.0 release (see [issue](https://github.com/qubic/qubic-deployment/issues/55)).
+* Update the lag-gate job (see [issue](https://github.com/qubic/qubic-deployment/issues/58)).
+* Updated openapi documentation for Live API endpoints (see [issue](https://github.com/qubic/integration/issues/85)).
+* Reindex tick data and use more shards (see [issue](https://github.com/qubic/qubic-deployment/issues/68)).
+* Set up a new elastic cluster (see [issue](https://github.com/qubic/qubic-deployment/issues/69)).
+
 ## Iteration 25
 
 Duration: December 03, 2025 - December 16, 2025
