@@ -1,4 +1,7 @@
-# Step-by-Step Release Guide
+# Release Guide
+This guide is the authoritative playbook for safely releasing Qubic core updates across epoch boundaries. It exists to prevent consensus errors, coordinate developers and operators, and ensure that every network upgrade is predictable, testable, and reversible when necessary.
+
+## Step-by-Step Release Guide
 
 - On Monday, check which PRs are approved and ready to be merged. Ask proactively in the Core Dev Chat if there are more changes planned.
 - Any changes that impact downstream clients (for example modifying external interfaces, communication protocol, existing message structs, logging events, etc.) need to be communicated to integration/ecosystem developers at least 1 week ahead, usually via the `#dev` channel on discord.
