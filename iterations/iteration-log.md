@@ -4,9 +4,20 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 27
+
+Duration: December 30, 2025 - January 12, 2026
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+* Preserve IDs of re-qualifying computors across epoch transition (see [issue](https://github.com/qubic/core/issues/654)).
+* Improve tx priority for new entities (using latest incoming transfer tick instead of latest outgoing) (see [PR](https://github.com/qubic/core/pull/688)).
+* Consistently exclude memory allocation for locals from execution fees of contract procedures (see [PR](https://github.com/qubic/core/pull/706), [PR](https://github.com/qubic/core/pull/707)).
+* Temporarily disable contract execution fees for state digest computation.
+
 ## Iteration 26
 
-Duration: December 17, 2025 - December 23, 2025
+Duration: December 17, 2025 - December 29, 2025
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
@@ -18,8 +29,7 @@ Duration: December 17, 2025 - December 23, 2025
 
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 
-* Add remote command to adjust computor-defined multiplier for contract execution fees (see [issue](https://github.com/qubic/core/issues/693))
-* Preserve IDs of re-qualifying computors across epoch transition (see [issue](https://github.com/qubic/core/issues/654))
+* Add remote command to adjust computor-defined multiplier for contract execution fees (see [issue](https://github.com/qubic/core/issues/693)).
 
 ## Iteration 25
 
