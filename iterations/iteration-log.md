@@ -16,6 +16,11 @@ Duration: December 17, 2025 - December 23, 2025
 * Reindex tick data and use more shards (see [issue](https://github.com/qubic/qubic-deployment/issues/68)).
 * Set up a new elastic cluster (see [issue](https://github.com/qubic/qubic-deployment/issues/69)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+* Add remote command to adjust computor-defined multiplier for contract execution fees (see [issue](https://github.com/qubic/core/issues/693))
+* Preserve IDs of re-qualifying computors across epoch transition (see [issue](https://github.com/qubic/core/issues/654))
+
 ## Iteration 25
 
 Duration: December 03, 2025 - December 16, 2025
