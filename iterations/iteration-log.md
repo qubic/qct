@@ -4,6 +4,27 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 28
+
+Duration: January 13, 2026 - January 26, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* GetTransactionsForTick: Add source, destination, inputType, and amount filters (see [issue](https://github.com/qubic/archive-query-service/issues/94)).
+* GetTransactionsForIdentity: Allow filtering by a single tick value (see [issue](https://github.com/qubic/archive-query-service/issues/93)).
+* Extend address filtering for GetTransactionsForIdentity (see [issue](https://github.com/qubic/archive-query-service/issues/95)).
+* Store TargetTickVoteSignature changes (see [issue](https://github.com/qubic/go-archiver-v2/issues/17)).
+* Spike: Use BOB nodes to retrieve event log data (see [issue](https://github.com/qubic/integration/issues/58)).
+* Fix error creating the archiver status (see [issue](https://github.com/qubic/go-data-publisher/issues/69)).
+* Ops: Automate epoch archivation (see [issue](https://github.com/qubic/qubic-deployment/issues/91)).
+* Ops: Dev01 migration to Dev02 (see [issue](https://github.com/qubic/qubic-deployment/issues/77)).
+* Ops: Migrate ex01 to remote deployment (see [issue](https://github.com/qubic/qubic-deployment/issues/86)).
+* Ops: Migrate ex03 to remote deployment (see [issue](https://github.com/qubic/qubic-deployment/issues/85)).
+* Ops: Setup proxy03 (see [issue](https://github.com/qubic/qubic-deployment/issues/80)).
+* Ops: Setup ex04 (see [issue](https://github.com/qubic/qubic-deployment/issues/79)).
+* Ops: Analyze archiver-v1 backend usage (see [issue](https://github.com/qubic/qubic-deployment/issues/87)).
+* Ops: Elastic cl02 maintenance (see [issue](https://github.com/qubic/qubic-deployment/issues/89)).
+
 ## Iteration 27
 
 Duration: December 30, 2025 - January 12, 2026
@@ -14,6 +35,19 @@ Duration: December 30, 2025 - January 12, 2026
 * Improve tx priority for new entities (using latest incoming transfer tick instead of latest outgoing) (see [PR](https://github.com/qubic/core/pull/688)).
 * Consistently exclude memory allocation for locals from execution fees of contract procedures (see [PR](https://github.com/qubic/core/pull/706), [PR](https://github.com/qubic/core/pull/707)).
 * Temporarily disable contract execution fees for state digest computation.
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Move legacy archiver database to larger disk (see [issue](https://github.com/qubic/qubic-deployment/issues/76)).
+* Automatic spectrum upload (see [issue](https://github.com/qubic/qubic-deployment/issues/71)).
+* Change lag-gate job to use the last processed tick (see [issue](https://github.com/qubic/qubic-deployment/issues/58)).
+* Check computors list signature via system info call (see [issue](https://github.com/qubic/go-archiver-v2/issues/14)).
+* Reindex computors and tick intervals on cl02 (see [issue](https://github.com/qubic/qubic-deployment/issues/78)).
+* Change openapi docs to openapi v3 (see [issue](https://github.com/qubic/qubic-http/issues/41) and [issue](https://github.com/qubic/archive-query-service/issues/86)).
+* Technical Analysis & Evaluation for API Documentation Standard (see [issue](https://github.com/qubic/integration/issues/70)).
+* Deploy the API docs under our own domain (see [issue](https://github.com/qubic/integration/issues/86)).
+* Document epoch transition procedures (see [issue](https://github.com/qubic/qubic-deployment/issues/72)).
+
 
 ## Iteration 26
 
