@@ -25,6 +25,22 @@ Duration: January 13, 2026 - January 26, 2026
 * Ops: Analyze archiver-v1 backend usage (see [issue](https://github.com/qubic/qubic-deployment/issues/87)).
 * Ops: Elastic cl02 maintenance (see [issue](https://github.com/qubic/qubic-deployment/issues/89)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Initial design and brainstorming for Dogecoin mining.
+
+#### Operations and Marketing
+
+* Created release guide in QCT repo to enable rotation for release creation (see [release guide](https://github.com/qubic/qct/blob/main/operations/release_guide.md)).
+* Livestream AMA about execution fees.
+* Review new whitepaper.
+
+#### SC Developer Support
+
+* Review of new SCs QReservePool, QThirtyFour, and QDuel.
+
 ## Iteration 27
 
 Duration: December 30, 2025 - January 12, 2026
