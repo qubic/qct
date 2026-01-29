@@ -30,6 +30,8 @@ Duration: January 13, 2026 - January 26, 2026
 #### Core
 
 * Initial design and brainstorming for Dogecoin mining.
+* Integrate and optimize for Dec 2025 mining verification into core (see [PR](https://github.com/qubic/core/pull/716) [PR](https://github.com/qubic/core/pull/721))
+* Improve connection between Oracle Machine and Qubic node with Mock Oracle (see [issue](https://github.com/qubic/core/issues/727) [PR](https://github.com/qubic/core/pull/725) [PR](https://github.com/qubic/oracle-machine/pull/2))
 
 #### Operations and Marketing
 
@@ -51,6 +53,7 @@ Duration: December 30, 2025 - January 12, 2026
 * Improve tx priority for new entities (using latest incoming transfer tick instead of latest outgoing) (see [PR](https://github.com/qubic/core/pull/688)).
 * Consistently exclude memory allocation for locals from execution fees of contract procedures (see [PR](https://github.com/qubic/core/pull/706), [PR](https://github.com/qubic/core/pull/707)).
 * Temporarily disable contract execution fees for state digest computation.
+* Collect and address feedback for Dec 2025 mining algo, test cases generation.
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
@@ -80,6 +83,7 @@ Duration: December 17, 2025 - December 29, 2025
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 
 * Add remote command to adjust computor-defined multiplier for contract execution fees (see [issue](https://github.com/qubic/core/issues/693)).
+* Implement reference Qiner for New Neural Network Mining Algorithm for (see [issue](https://github.com/qubic/core/issues/659) [PR](https://github.com/qubic/Qiner/pull/17))
 
 ## Iteration 25
 
