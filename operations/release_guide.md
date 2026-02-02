@@ -4,6 +4,7 @@ This guide is the authoritative playbook for safely releasing Qubic core updates
 ## Step-by-Step Release Guide
 
 - On Monday, check which PRs are approved and ready to be merged. Ask proactively in the Core Dev Chat if there are more changes planned.
+- Changes that require a proposal to the computors need to have their proposal up for voting to be merged for the next epoch. If the corresponding proposal is not live yet, skip these PRs.
 - Any changes that impact downstream clients (for example modifying external interfaces, communication protocol, existing message structs, logging events, etc.) need to be communicated to integration/ecosystem developers at least 1 week ahead, usually via the `#dev` channel on discord.
 - When merging PRs into `develop`, it is usually the best option to do the "squash and merge" version which will bundle all changes in a single new commit. This allows for easy reverting if issues are found during the release test. Only use the "create merge commit" version if there is significant merit in keeping all original commits. Note that this will make a clean revert of a single feature much harder. We have seen unexpected results with trying to revert "merge commits" in the past. 
 - Some changes (e.g. new SCs) might depend on the outcome of a proposal. In this case, merge the PR and afterwards add a preprocessor toggle to easily let the computors disable the change (see [example commit](https://github.com/qubic/core/commit/e9293e7cce0d7f18e7db87aa11d762260deb72e7)).
