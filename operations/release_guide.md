@@ -15,7 +15,7 @@ This guide is the authoritative playbook for safely releasing Qubic core updates
 - In `public_settings.h`, adjust the epoch, version, and initial tick. We use semantic version names `x.y.z` where versions with the same `x` and `y` should be able to run together in a network. Hence, when doing non-seamless, the new version will always be `x.(y+1).0`. `START_NETWORK_FROM_SCRATCH` should be set to 1 for non-seamless.
 - Create a testnet branch (called `testnets/release-...`) by branching from `develop` and cherry-picking the testnet config commit (latest commit in the `testnet` branch in the core repo).
 - Ping the testing team in the `#core-testing` channel to start the release test. The general release test protocol can be found [here](https://github.com/qubic/core/blob/main/test/README.md). If new features require additional tests, specify them explicitly. The release test should be started ideally on Monday or latest Tuesday morning UTC to allow enough time.
-- Once the test is successful, create a pull request from `develop` to `main`. Write the change log in the PR description. Ping in the Core Dev Chat to get a reviewer for the release PR.
+- Once the test is successful, create a pull request from `develop` to `main`. Write the change log in the PR description. Sort the items in the change log by descending relevance from a user’s perspective. Ping in the Core Dev Chat to get a reviewer for the release PR.
 - Double check that the new initial tick that was estimated still works, i.e. the network will not reach it before epoch transition. You can do this by updating the “current tick” and “current time” in the sheet used before.
 - As soon as the release PR is approved, merge the PR into `main` (using the “create merge commit” version to preserve the commits from `develop`).
 - Wait for the automatic workflows to successfully pass.
@@ -35,7 +35,7 @@ This guide is the authoritative playbook for safely releasing Qubic core updates
     - (5) make sure the network runs stable with both versions running together. 
 
     The general release test protocol can be found [here](https://github.com/qubic/core/blob/main/test/README.md). If new features require additional tests, specify them explicitly. The release test should be started ideally on Monday or latest Tuesday morning UTC to allow enough time.
-- Once the test is successful, create a pull request from `develop` to `main`. Write the change log in the PR description. Ping in the Core Dev Chat to get a reviewer for the release PR. **Wait for epoch transition before merging!**
+- Once the test is successful, create a pull request from `develop` to `main`. Write the change log in the PR description. Sort the items in the change log by descending relevance from a user’s perspective. Ping in the Core Dev Chat to get a reviewer for the release PR. **Wait for epoch transition before merging!**
 - Wait for seamless epoch transition and query the new initial tick from a node (e.g. using qubic-cli). Update the initial tick in `public_settings.h` in the `develop` branch.
 - Once the PR is approved and the initial tick is updated, merge the PR into `main` (using the “create merge commit” version to preserve the commits from `develop`).
 - Wait for the automatic workflows to successfully pass.
