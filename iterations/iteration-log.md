@@ -4,6 +4,20 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 29
+
+Duration: January 27, 2026 - February 09, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Define elastic search index for event logs (see [issue](https://github.com/qubic/go-log-data-publisher/issues/2)).
+* Publish log events to kafka (see [issue](https://github.com/qubic/go-log-data-publisher/issues/1)).
+* Deduplicate log events (see [issue](https://github.com/qubic/go-log-data-publisher/issues/4)).
+* Automate openapi updates for integration documentation (see [issue](https://github.com/qubic/integration/issues/88)).
+* Automate openapi updates for docs.qubic.org (see [issue](https://github.com/qubic/integration/issues/87)).
+* Add https certificate for alternative grafana url (see [issue](https://github.com/qubic/qubic-deployment/issues/41)).
+* Shut down ex02 (see [issue](https://github.com/qubic/qubic-deployment/issues/97)).
+
 ## Iteration 28
 
 Duration: January 13, 2026 - January 26, 2026
