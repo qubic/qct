@@ -18,6 +18,20 @@ Duration: January 27, 2026 - February 09, 2026
 * Add https certificate for alternative grafana url (see [issue](https://github.com/qubic/qubic-deployment/issues/41)).
 * Shut down ex02 (see [issue](https://github.com/qubic/qubic-deployment/issues/97)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+* Dogecoin mining design finished.
+
+#### Contract Verification
+* Add check that all globals are `constexpr` (`const` is not properly initialized in UEFI) (see [issue](https://github.com/qubic/core/issues/747)).
+
+#### Documentation
+* Add information about contract execution fees to docs.qubic.org (see [PR](https://github.com/qubic/docs/pull/51)).
+
+#### SC Developer Support
+* Review of new SC Pulse.
+
 ## Iteration 28
 
 Duration: January 13, 2026 - January 26, 2026
