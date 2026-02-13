@@ -22,6 +22,8 @@ Duration: January 27, 2026 - February 09, 2026
 
 #### Core
 * Dogecoin mining design finished.
+* Save/Load misalignment debug for Oracle.
+* Price oracle for OM and some improvement/debug for connection OM <-> qubic node (see [issue](https://github.com/qubic/core/issues/701) [PR](https://github.com/qubic/oracle-machine/pull/4)).
 
 #### Contract Verification
 * Add check that all globals are `constexpr` (`const` is not properly initialized in UEFI) (see [issue](https://github.com/qubic/core/issues/747)).
