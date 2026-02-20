@@ -2,7 +2,11 @@
 
 This file describes the checks that need to be done for a smart contract review.
 All checks are described in the contracts doc (https://github.com/qubic/core/blob/main/doc/contracts.md).
-Feel free to refer contirbutors to the appropriate sections of this doc for details.
+Feel free to refer contributors to the appropriate sections of this doc for details.
+
+Core devs do not review for semantically correct code logic or safety of the contract/funds.
+All responsibility lies with the smart contract developer.
+However, if you spot something suspicious or questionable, flag it to the contributor. 
 
 ## Automated Workflow Checks
 
