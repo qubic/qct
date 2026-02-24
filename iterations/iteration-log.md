@@ -4,6 +4,22 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 30
+
+Duration: February 10, 2026 - February 23, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Add an endpoint for getting IPO bids (see [issue](https://github.com/qubic/qubic-http/issues/47)).
+* Create a single endpoint to fetch event logs (BETA) (see [issue](https://github.com/qubic/archive-query-service/issues/104)).
+* Adapt event service to core changes (oracles) (see [issue](https://github.com/qubic/go-events/issues/28)).
+* Store and expose logDigest in bridge service (see [issue](https://github.com/qubic/go-log-data-publisher/issues/11)).
+* Investigate missing assets related events (see [issue](https://github.com/qubic/go-log-data-publisher/issues/9)).
+* Metrics for bob log bridge service (see [issue](https://github.com/qubic/go-log-data-publisher/issues/10)).
+* Do not ingest burn events with zero amount value into elastic (see [issue](https://github.com/qubic/go-log-data-publisher/issues/14)).
+* Consume and ingest log events into elastic (see [issue](https://github.com/qubic/go-log-data-publisher/issues/3)).
+* Remove encoded messages from the transaction hash (see [issue](https://github.com/qubic/go-log-data-publisher/issues/7)).
+
 ## Iteration 29
 
 Duration: January 27, 2026 - February 09, 2026
