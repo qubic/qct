@@ -13,18 +13,23 @@ Duration: February 24, 2026 - March 10, 2026
 #### Core
 
 * Implement oracle subscription support (see [issue](https://github.com/qubic/core/issues/673), [PR](https://github.com/qubic/core/pull/787)).
+* Implement automatic state chagne detection for Smart Contracts (see [issue](https://github.com/qubic/core/issues/696), [PR](https://github.com/qubic/core/pull/774)).
+* Start implementation core based minimum fee for SC procedures (see [issue](https://github.com/qubic/core/issues/653)).
 
 #### CLI
 
 * Add oracle subscription commands for mainnet release in qubic-cli (see [PR](https://github.com/qubic/qubic-cli/pull/116)).
-* Extend qlogging with subscriber log message (see [PR](https://github.com/qubic/qlogging/pull/11).
+* Extend qlogging with subscriber log message (see [PR](https://github.com/qubic/qlogging/pull/11)).
 
 #### Contract Verification
 
-* ...
+* Add new check for automatic state change detection (see [PR](https://github.com/Franziska-Mueller/qubic-contract-verify/pull/3)).
 
 #### SC Developer Support
-* Review of ...
+* Review of QSurv
+* Review of SolanaBridge
+* Review of VottunBridge
+
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
