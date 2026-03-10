@@ -4,6 +4,28 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 31
+
+Duration: February 24, 2026 - March 10, 2026
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Implement oracle subscription support (see [issue](https://github.com/qubic/core/issues/673), [PR](https://github.com/qubic/core/pull/787)).
+
+#### CLI
+
+* Add oracle subscription commands for mainnet release in qubic-cli (see [PR](https://github.com/qubic/qubic-cli/pull/116)).
+* Extend qlogging with subscriber log message (see [PR](https://github.com/qubic/qlogging/pull/11).
+
+#### Contract Verification
+
+* ...
+
+#### SC Developer Support
+* Review of ...
+
 ## Iteration 30
 
 Duration: February 10, 2026 - February 23, 2026
@@ -19,6 +41,13 @@ Duration: February 10, 2026 - February 23, 2026
 * Do not ingest burn events with zero amount value into elastic (see [issue](https://github.com/qubic/go-log-data-publisher/issues/14)).
 * Consume and ingest log events into elastic (see [issue](https://github.com/qubic/go-log-data-publisher/issues/3)).
 * Remove encoded messages from the transaction hash (see [issue](https://github.com/qubic/go-log-data-publisher/issues/7)).
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+- Allow snapshot loading if computor count changes (see [PR](https://github.com/qubic/core/pull/766)).
+- Add function for checking if public key belongs to contract (see [PR](https://github.com/qubic/core/pull/765)).
 
 ## Iteration 29
 
