@@ -26,6 +26,24 @@ Duration: February 24, 2026 - March 10, 2026
 #### SC Developer Support
 * Review of ...
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* API: Get the qubic balance for multiple addresses (see [issue](https://github.com/qubic/qubic-aggregation/issues/2)).
+* API: Get IPO bids by identity (see [issue](https://github.com/qubic/qubic-aggregation/issues/1)).
+* API: Get Events by Identity (see [issue](https://github.com/qubic/archive-query-service/issues/108)).
+* Switch bridge kafka library to franz-go (see [issue](https://github.com/qubic/go-log-data-publisher/issues/22)).
+* Bridge: address bob /ws/logs removed endpoint (see [issue](https://github.com/qubic/go-log-data-publisher/issues/17)).
+* Sort event logs by tick number and index/log id (see [issue](https://github.com/qubic/archive-query-service/issues/115)).
+* Add secondary sort order for elastic index (see [issue](https://github.com/qubic/qubic-deployment/issues/99)).
+* Improve log events consumer (see [issue](https://github.com/qubic/go-log-data-publisher/issues/21) and [issue](https://github.com/qubic/go-log-data-publisher/issues/20)).
+* Improve get transactions for identity query (see [issue](https://github.com/qubic/archive-query-service/issues/119)).
+* Improve handling of non-retriable errors in kafka publishers (see [issue](https://github.com/qubic/go-data-publisher/issues/74)).
+* Improve error logging on consumers (see [issue](https://github.com/qubic/go-data-publisher/issues/76)).
+* Fix grpc max recv/send message size (see [issue](https://github.com/qubic/archive-query-service/issues/127)).
+* Fix public peer discovery issue (see [issue](https://github.com/qubic/go-qubic-nodes/issues/25)).
+* Investigate proxy network issues on proxy03 (see [issue](https://github.com/qubic/qubic-deployment/issues/100)).
+* Update Grafana version (see [issue](https://github.com/qubic/qubic-deployment/issues/105)).
+
 ## Iteration 30
 
 Duration: February 10, 2026 - February 23, 2026
