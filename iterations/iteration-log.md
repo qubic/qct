@@ -15,6 +15,8 @@ Duration: February 24, 2026 - March 10, 2026
 * Implement oracle subscription support (see [issue](https://github.com/qubic/core/issues/673), [PR](https://github.com/qubic/core/pull/787)).
 * Implement automatic state chagne detection for Smart Contracts (see [issue](https://github.com/qubic/core/issues/696), [PR](https://github.com/qubic/core/pull/774)).
 * Start implementation core based minimum fee for SC procedures (see [issue](https://github.com/qubic/core/issues/653)).
+* Speedup and double the number of mutations for addition mining algorithm (see [issue](https://github.com/qubic/core/issues/790) [PR](https://github.com/qubic/core/pull/785)).
+* Revenue formula v2, shadow mode integration (see [issue](https://github.com/qubic/core/issues/726) [PR](https://github.com/qubic/core/pull/788)).
 
 #### CLI
 
