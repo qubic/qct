@@ -1,14 +1,12 @@
 # Fund Qubic Core Development
 
-> [!IMPORTANT]
-> This is a DRAFT document
 
 ## Proposal
-Send 667 billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEITGGEWZDIBRAIYWPGEONG` to support the further development of Qubic Core.
+Send 572 billion QUBIC to the identity `XQCLNHCEHTKQZDBAHJFVVTRMWFACMAZOBAEDQHEITGGEWZDIBRAIYWPGEONG` to support the further development of Qubic Core.
 
 > Option 0: no
 
-> Option 1: yes, 667 billion QUBIC
+> Option 1: yes, 572 billion QUBIC
 
 ## How We Used Past Funding
 
@@ -77,11 +75,11 @@ linckode, luk, mio, Mr.Rose, phil, raika sternensucher, sally, yurabb8
 
 ## Overview
 
-We are requesting **667 billion QUBIC** to support the continued development of Qubic Core for **4 months** (March – June 2026).
+We are requesting **572 billion QUBIC** to support the continued development of Qubic Core for **4 months** (March – June 2026).
 
 Taking into account our proven lean operating rate and current market conditions, the requested funding aims to cover development costs equivalent to **~400K$** over **4 months** (~100K$/month).
 
-The QUBIC amount was calculated using a valuation of **600 USD per billion** QUBIC.
+The QUBIC amount was calculated using a valuation of **700 USD per billion** QUBIC.
 
 The requested funding will be allocated to:
 - Pay team salaries
@@ -156,8 +154,8 @@ The proposed monthly budget of **~$100K** is based on the actual average operati
 |---|--------|
 | Monthly budget | ~$100,000 |
 | Duration | 4 months (Mar–Jun 2026) |
-| Valuation | 600 USD/bln |
-| **Total request** | **667 billion QUBIC (~$400,000)** |
+| Valuation | 700 USD/bln |
+| **Total request** | **572 billion QUBIC (~$400,000)** |
 
 ### Changes compared to previous budget
 
@@ -166,11 +164,11 @@ The proposed monthly budget of **~$100K** is based on the actual average operati
 | Monthly target | ~$140K | ~$100K |
 | Duration | 6 months | 4 months |
 | Total USD | ~$840K | ~$400K |
-| Total QUBIC | 646B (at 1,300/bln) | 667B (at 600/bln) |
+| Total QUBIC | 646B (at 1,300/bln) | 572B (at 700/bln) |
 | New hires included | DevOps + Core Engineer | No new hires |
 | Community engagement | Not explicitly included | Community Bounty, Network Guardians |
 
-The USD request is **52% smaller** than the previous proposal, reflecting both the shorter period and the leaner operating model proven over the last 4 months. The QUBIC amount is comparable (667B vs 646B) due to the lower token valuation.
+The USD request is **52% smaller** than the previous proposal, reflecting both the shorter period and the leaner operating model proven over the last 4 months. The QUBIC amount is comparable (572B vs 646B) due to the lower token valuation.
 
 ## Governance
 - Any unspent funds (e.g., due to an increase in QUBIC's market value) will either be used to cover expenses for the next period or returned to the CCF in the event of QCT's dissolution.
