@@ -17,6 +17,7 @@ Duration: February 24, 2026 - March 10, 2026
 * Start implementation core based minimum fee for SC procedures (see [issue](https://github.com/qubic/core/issues/653)).
 * Speedup and double the number of mutations for addition mining algorithm (see [issue](https://github.com/qubic/core/issues/790) [PR](https://github.com/qubic/core/pull/785)).
 * Revenue formula v2, shadow mode integration (see [issue](https://github.com/qubic/core/issues/726) [PR](https://github.com/qubic/core/pull/788)).
+* First version of doge dispatcher finished, including local sandbox test with test dispatcher and test miner.
 
 #### CLI
 
@@ -28,9 +29,9 @@ Duration: February 24, 2026 - March 10, 2026
 * Add new check for automatic state change detection (see [PR](https://github.com/Franziska-Mueller/qubic-contract-verify/pull/3)).
 
 #### SC Developer Support
-* Review of QSurv
-* Review of SolanaBridge
-* Review of VottunBridge
+* Review of QSurv.
+* Review of SolanaBridge.
+* Review of VottunBridge.
 
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
@@ -71,8 +72,14 @@ Duration: February 10, 2026 - February 23, 2026
 
 #### Core
 
-- Allow snapshot loading if computor count changes (see [PR](https://github.com/qubic/core/pull/766)).
-- Add function for checking if public key belongs to contract (see [PR](https://github.com/qubic/core/pull/765)).
+* Allow snapshot loading if computor count changes (see [PR](https://github.com/qubic/core/pull/766)).
+* Add function for checking if public key belongs to contract (see [PR](https://github.com/qubic/core/pull/765)).
+* Implement share validation for doge mining (see [issue](https://github.com/qubic/core/issues/749)).
+* Configure github build workflow to fail on warnings to prevent PRs from introducing warnings (see [failing test PR](https://github.com/qubic/core/pull/768)).
+
+#### Operations
+
+* Created contract review guide in QCT repo to enable rotation for SC reviews (see [contract review guide](https://github.com/qubic/qct/blob/main/operations/contract_review.md)).
 
 ## Iteration 29
 
