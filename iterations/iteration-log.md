@@ -8,6 +8,17 @@ Listed items are completed but that does not mean that all the deliverables are 
 
 Duration: March 11, 2026 - March 24, 2026
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Fix bug regarding misalignments after seamless epoch change (see [issue](https://github.com/qubic/core/issues/792))
+* Work on minimum fee for SC procedures (see [issue](https://github.com/qubic/core/issues/653))
+
+#### SC Developer Support
+* Review and merge of QSurv.
+* Review and merge of VottunBridge.
+
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
 * Store the last processed event log tick (see [issue](https://github.com/qubic/go-log-data-publisher/issues/25)).
