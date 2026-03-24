@@ -14,6 +14,9 @@ Duration: March 11, 2026 - March 24, 2026
 
 * Fix bug regarding misalignments after seamless epoch change (see [issue](https://github.com/qubic/core/issues/792))
 * Work on minimum fee for SC procedures (see [issue](https://github.com/qubic/core/issues/653))
+* Fix bug leading to changed order in asset iteration after snapshot loading (see [PR](https://github.com/qubic/core/pull/795))
+* Write documentation for oracles (see [issue](https://github.com/qubic/core/issues/789), [PR](https://github.com/qubic/core/pull/796))
+* Work on adding qubic scoring of doge mining via oracle machine (see [PR](https://github.com/qubic/core/issues/753)).
 
 #### SC Developer Support
 * Review and merge of QSurv.
