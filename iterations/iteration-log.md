@@ -4,6 +4,24 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 32
+
+Duration: March 11, 2026 - March 24, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Store the last processed event log tick (see [issue](https://github.com/qubic/go-log-data-publisher/issues/25)).
+* Add the last processed event log tick to status service (see [issue](https://github.com/qubic/go-data-publisher/issues/78)).
+* Add the last processed event log tick to API (see [issue](https://github.com/qubic/archive-query-service/issues/124)).
+* Improve archiver v2 performance with parallel calls (see [issue](https://github.com/qubic/go-archiver-v2/issues/19)).
+* Support event log types 11 + 12 (see [issue](https://github.com/qubic/qubic-deployment/issues/111), [issue](https://github.com/qubic/archive-query-service/issues/134), and [issue](https://github.com/qubic/go-log-data-publisher/issues/28)).
+* Support new event log filters (see [issue](https://github.com/qubic/archive-query-service/issues/117), [issue](https://github.com/qubic/archive-query-service/issues/125), and [issue](https://github.com/qubic/archive-query-service/issues/129)).
+* Rename fields in the elastic log events index template (see [issue](https://github.com/qubic/qubic-deployment/issues/107)).
+* Deploy another bob and bridge in dev (see [issue](https://github.com/qubic/qubic-deployment/issues/112)).
+* Update duplicate check with the option to skip logs (see [issue](https://github.com/qubic/kafka-streams-services/issues/3)).
+* Replace cl01 elastic cluster (see [issue](https://github.com/qubic/qubic-deployment/issues/114), and [issue](https://github.com/qubic/qubic-deployment/issues/115)).
+* Remove ex03 volume (see [issue](https://github.com/qubic/qubic-deployment/issues/113)).
+
 ## Iteration 31
 
 Duration: February 24, 2026 - March 10, 2026
