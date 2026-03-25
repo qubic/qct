@@ -18,12 +18,15 @@ Duration: March 11, 2026 - March 24, 2026
 * Write documentation for oracles (see [issue](https://github.com/qubic/core/issues/789), [PR](https://github.com/qubic/core/pull/796))
 * Work on adding qubic scoring of doge mining via oracle machine (see [PR](https://github.com/qubic/core/issues/753)).
 * Revenue formula v2, real data analysis (see [issue](https://github.com/qubic/core/issues/726)).
+* Finish main net doge dispatcher implementation (see [issue](https://github.com/qubic/core/issues/750), code available in [repo](https://github.com/qubic/doge-connect)).
+* Computor documentation for doge dispatcher (see [issue](https://github.com/qubic/core/issues/751), doc available in [repo](https://github.com/qubic/doge-connect)).
 
 #### SC Developer Support
 * Review and merge of QSurv.
 * Review and merge of VottunBridge.
 * Review and merge of Random.
 * Review and merge of QVaultV2.
+* Review Qusino.
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
