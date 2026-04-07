@@ -4,6 +4,18 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 33
+
+Duration: March 25, 2026 - April 7, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Go live with event logs endpoint (see [issue](https://github.com/qubic/qubic-deployment/issues/116), [issue](https://github.com/qubic/qubic-deployment/issues/109),
+  [issue](https://github.com/qubic/qubic-deployment/issues/108), [issue](https://github.com/qubic/qubic-deployment/issues/118),
+  and [issue](https://github.com/qubic/qubic-deployment/issues/110)).
+* Add remaining filters to log events endpoint (see [issue](https://github.com/qubic/archive-query-service/issues/130)).
+* Refactor the endpoint name getEvents to getEventLogs (see [issue](https://github.com/qubic/archive-query-service/issues/139)).
+
 ## Iteration 32
 
 Duration: March 11, 2026 - March 24, 2026
