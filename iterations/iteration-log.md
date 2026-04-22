@@ -10,7 +10,7 @@ Duration: April 8, 2026 - April 21, 2026
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
-* Add log types 14 + 15 to the consumer/bridge (see [issue](https://github.com/qubic/qubic-log-data-publisher/issues/33)).
+* Add log types 14 + 15 to the consumer/bridge (see [issue](https://github.com/qubic/go-log-data-publisher/issues/33)).
 * Add log types 14 + 15 in elastic (see [issue](https://github.com/qubic/qubic-deployment/issues/117)).
 * Add tick data dedup streams service (see [issue](https://github.com/qubic/kafka-streams-services/issues/2)).
 * Add transactions dedup streams service (see [issue](https://github.com/qubic/kafka-streams-services/issues/1)).
