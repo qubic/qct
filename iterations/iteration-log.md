@@ -2,7 +2,26 @@
 
 This page provides a simplified list of iteration deliverables. It is not intended to be exhaustive,
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
-Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
+Listed items are completed, but that does not mean that all the deliverables are deployed to production yet.
+
+## Iteration 34
+
+Duration: April 8, 2026 - April 21, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Add log types 14 + 15 to the consumer/bridge (see [issue](https://github.com/qubic/go-log-data-publisher/issues/33)).
+* Add log types 14 + 15 in elastic (see [issue](https://github.com/qubic/qubic-deployment/issues/117)).
+* Add tick data dedup streams service (see [issue](https://github.com/qubic/kafka-streams-services/issues/2)).
+* Add transactions dedup streams service (see [issue](https://github.com/qubic/kafka-streams-services/issues/1)).
+* Improve handling of non-retriable errors in kafka publishers (see [issue](https://github.com/qubic/go-log-data-publisher/issues/19)).
+* Status service: replace get document id calls with search queries (see [issue](https://github.com/qubic/go-data-publisher/issues/80)).
+* Increase the response size cap (see [issue](https://github.com/qubic/archive-query-service/issues/147)).
+* Investigate total connection times (see [issue](https://github.com/qubic/qubic-deployment/issues/122)).
+* Fix archiver: handle disable tx status addon (see [issue](https://github.com/qubic/go-archiver-v2/issues/22)).
+* Fix haproxy health check (see [issue](https://github.com/qubic/qubic-deployment/issues/121)).
+* Fix asset owner pagination sorting (see [issue](https://github.com/qubic/qubic-stats-service/issues/25)).
+* Fix empty ticks endpoint (see [issue](https://github.com/qubic/archive-query-service/issues/140)).
 
 ## Iteration 33
 
