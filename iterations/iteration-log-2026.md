@@ -23,6 +23,22 @@ Duration: April 8, 2026 - April 21, 2026
 * Fix asset owner pagination sorting (see [issue](https://github.com/qubic/qubic-stats-service/issues/25)).
 * Fix empty ticks endpoint (see [issue](https://github.com/qubic/archive-query-service/issues/140)).
 
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Add retry mechanisms for doge oracle queries that were not included in scheduled tick or failed due to e.g. timeout (see [PR](https://github.com/qubic/core/pull/810)).
+* Harden doge share validation to verify the computor index (see [PR](https://github.com/qubic/core/pull/828)).
+* Add check for doge oracle replies to decide whether they should be counted for revenue (active task, no duplicate) (see [PR](https://github.com/qubic/core/pull/828)).
+
+#### Contract Verification
+
+* Update contract-verify for oracle-related code (see [core PR](https://github.com/qubic/core/pull/839), [contract-verify PR](https://github.com/Franziska-Mueller/qubic-contract-verify/pull/5)).
+
+#### SC Developer Support
+
+* Review of QRWA update.
+
 ## Iteration 33
 
 Duration: March 25, 2026 - April 7, 2026
@@ -34,6 +50,12 @@ Duration: March 25, 2026 - April 7, 2026
   and [issue](https://github.com/qubic/qubic-deployment/issues/110)).
 * Add remaining filters to log events endpoint (see [issue](https://github.com/qubic/archive-query-service/issues/130)).
 * Refactor the endpoint name getEvents to getEventLogs (see [issue](https://github.com/qubic/archive-query-service/issues/139)).
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Launched doge mining on mainnet (dispatcher, task and solution propagation, share validation via oracle) (see [PR](https://github.com/qubic/core/pull/825)).
 
 ## Iteration 32
 
