@@ -32,14 +32,21 @@ Duration: April 8, 2026 - April 21, 2026
 * Add check for doge oracle replies to decide whether they should be counted for revenue (active task, no duplicate) (see [PR](https://github.com/qubic/core/pull/828)).
 * Revenue calculation v2 with doge factor (see [PR](https://github.com/qubic/core/pull/829)).
 * Remove xmr custom mining(see [PR](https://github.com/qubic/core/pull/844)).
-* Renable executionfees for digest computation (see [PR](https://github.com/qubic/core/pull/834)).
+* Renable execution fees for digest computation (see [PR](https://github.com/qubic/core/pull/834)).
 * Fix of three memory bugs (see [PR](https://github.com/qubic/core/pull/832)).
 * Fix network due to stuck tick (see [PR](https://github.com/qubic/core/pull/831)).
 * Addition of doubly-linked list to qpi (see [PR](https://github.com/qubic/core/pull/806)).
+* Hotfix of tx status addon (see [PR](https://github.com/qubic/core/pull/848)).
+* Add two flags to reduce false-positives in solution dedup (see [PR](https://github.com/qubic/core/pull/843)).
+* QUTIL: add func for getting balances of 16 entities (see [PR](https://github.com/qubic/core/pull/835)).
 
 #### Contract Verification
 
 * Update contract-verify for oracle-related code (see [core PR](https://github.com/qubic/core/pull/839), [contract-verify PR](https://github.com/Franziska-Mueller/qubic-contract-verify/pull/5)).
+
+#### Oracle Machine
+
+* Update doge oracle service to (see [PR](https://github.com/qubic/oracle-machine/pull/11)).
 
 #### SC Developer Support
 
@@ -47,6 +54,7 @@ Duration: April 8, 2026 - April 21, 2026
 * Review ESCROW.
 * Review SolanaBridge.
 * Review QAgent.
+* Review QUTIL update.
 
 ## Iteration 33
 
@@ -66,6 +74,14 @@ Duration: March 25, 2026 - April 7, 2026
 
 * Launched doge mining on mainnet (dispatcher, task and solution propagation, share validation via oracle) (see [PR](https://github.com/qubic/core/pull/825)).
 * Speedup addition score (see [PR](https://github.com/qubic/core/pull/812))
+* Fix compiler-dependent behavior with input qpi bit outside range 0/1 (see [PR](https://github.com/qubic/core/pull/822)).
+* Implement special handling of DogeShareValidation user queries (see [PR](https://github.com/qubic/core/pull/811)).
+* Add oracle interface for doge share validation (see [PR](https://github.com/qubic/core/pull/802)).
+
+#### Oracle Machine
+
+* Add doge share validation service (see [PR](https://github.com/qubic/oracle-machine/pull/10)).
+
 
 ## Iteration 32
 
