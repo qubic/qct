@@ -30,6 +30,8 @@ Duration: April 8, 2026 - April 21, 2026
 * Add retry mechanisms for doge oracle queries that were not included in scheduled tick or failed due to e.g. timeout (see [PR](https://github.com/qubic/core/pull/810)).
 * Harden doge share validation to verify the computor index (see [PR](https://github.com/qubic/core/pull/828)).
 * Add check for doge oracle replies to decide whether they should be counted for revenue (active task, no duplicate) (see [PR](https://github.com/qubic/core/pull/828)).
+* Revenue calculation v2 with doge factor (see [PR](https://github.com/qubic/core/pull/829)).
+* Remove xmr custom mining(see [PR](https://github.com/qubic/core/pull/844)).
 
 #### Contract Verification
 
@@ -38,6 +40,7 @@ Duration: April 8, 2026 - April 21, 2026
 #### SC Developer Support
 
 * Review of QRWA update.
+* Review ESCROW.
 
 ## Iteration 33
 
@@ -56,6 +59,7 @@ Duration: March 25, 2026 - April 7, 2026
 #### Core
 
 * Launched doge mining on mainnet (dispatcher, task and solution propagation, share validation via oracle) (see [PR](https://github.com/qubic/core/pull/825)).
+* Speedup addition score (see [PR](https://github.com/qubic/core/pull/812))
 
 ## Iteration 32
 
