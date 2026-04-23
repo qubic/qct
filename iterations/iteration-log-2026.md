@@ -32,6 +32,10 @@ Duration: April 8, 2026 - April 21, 2026
 * Add check for doge oracle replies to decide whether they should be counted for revenue (active task, no duplicate) (see [PR](https://github.com/qubic/core/pull/828)).
 * Revenue calculation v2 with doge factor (see [PR](https://github.com/qubic/core/pull/829)).
 * Remove xmr custom mining(see [PR](https://github.com/qubic/core/pull/844)).
+* Renable executionfees for digest computation (see [PR](https://github.com/qubic/core/pull/834)).
+* Fix of three memory bugs (see [PR](https://github.com/qubic/core/pull/832)).
+* Fix network due to stuck tick (see [PR](https://github.com/qubic/core/pull/831)).
+* Addition of doubly-linked list to qpi (see [PR](https://github.com/qubic/core/pull/806)).
 
 #### Contract Verification
 
@@ -41,6 +45,8 @@ Duration: April 8, 2026 - April 21, 2026
 
 * Review of QRWA update.
 * Review ESCROW.
+* Review SolanaBridge.
+* Review QAgent.
 
 ## Iteration 33
 
