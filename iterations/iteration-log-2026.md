@@ -4,6 +4,25 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 35
+
+Duration: April 22, 2026 - May 5, 2026
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Refine doge oracle retry mechanisms to check if task is still active (see [PR](https://github.com/qubic/core/pull/855)).
+* Fix tx censorship vulnerability in the pending txs pool by considering comp status when granting max priority to protocol-level txs (see [commit](https://github.com/qubic/core/commit/ebe64b3ab2b14043bf1ba4463ea15929a6b03eb6)).
+
+#### Contract Verification
+
+* Update contract-verify to properly handle `using` keyword for input/output types (see [issue](https://github.com/qubic/core/issues/850), [contract-verify release](https://github.com/Franziska-Mueller/qubic-contract-verify/releases/tag/v1.1.1)).
+
+#### SC Developer Support
+
+* Review QRWA and QTRY cli integrations.
+
 ## Iteration 34
 
 Duration: April 8, 2026 - April 21, 2026
