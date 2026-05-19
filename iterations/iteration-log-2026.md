@@ -58,6 +58,22 @@ Duration: April 22, 2026 - May 5, 2026
 
 * Review QRWA and QTRY cli integrations.
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Support logId range filter for log events (see [issue](https://github.com/qubic/archive-query-service/issues/150)).
+* Support oracle log events (see [issue](https://github.com/qubic/archive-query-service/issues/144)).
+* Rename property in `/getLastProcessedTick` response (see [issue](https://github.com/qubic/archive-query-service/issues/151)).
+* Update query v2 error handling ([issue](https://github.com/qubic/archive-query-service/issues/154), [issue](https://github.com/qubic/archive-query-service/issues/155)).
+* Spike: archiver with bob (see [issue](https://github.com/qubic/integration/issues/106)).
+* Replace elastic get calls with queries (see [issue](https://github.com/qubic/archive-query-service/issues/137)).
+* Remove changelogs for kafka streams services (see [issue](https://github.com/qubic/kafka-streams-services/issues/5)).
+* Devops: Publish transactions and ticks from all instances (see [issue](https://github.com/qubic/qubic-deployment/issues/125)).
+* Devops: update archivation (see [issue](https://github.com/qubic/qubic-deployment/issues/128)).
+* Devops: kafka disk check job (see [issue](https://github.com/qubic/qubic-deployment/issues/127)).
+* Devops: Move dedup to ex01 (see [issue](https://github.com/qubic/qubic-deployment/issues/129)).
+* Devops: Fix infra deployment naming (see [issue](https://github.com/qubic/qubic-deployment/issues/120)).
+* Server maintenance (see [issue](https://github.com/qubic/qubic-deployment/issues/132)).
+
 ## Iteration 34
 
 Duration: April 8, 2026 - April 21, 2026
