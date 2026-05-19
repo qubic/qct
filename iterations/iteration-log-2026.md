@@ -20,6 +20,24 @@ Duration: May 6, 2026 - May 19, 2026
 
 * Update contract-verify to check oracle interfaces for compliance with language restrictions (see [PR](https://github.com/Franziska-Mueller/qubic-contract-verify/pull/7) and [PR](https://github.com/qubic/core/pull/873)).
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Support 4096 txs in status service ([issue](https://github.com/qubic/go-data-publisher/issues/87)), 
+  query v1 and v2 ([issue](https://github.com/qubic/archive-query-service/issues/160)),
+  archiver ([issue](https://github.com/qubic/go-archiver/issues/178)), 
+  archiver v2 ([issue](https://github.com/qubic/go-archiver-v2/issues/27)),
+  go-qubic ([issue](https://github.com/qubic/go-qubic/issues/16)),
+  node connector ([issue](https://github.com/qubic/go-node-connector/issues/34)),
+  and dependencies ([issue](https://github.com/qubic/qubic-deployment/issues/139)).
+* Ingestion: process single transactions instead of ticks ([issue](https://github.com/qubic/go-data-publisher/issues/85), [issue](https://github.com/qubic/kafka-streams-services/issues/7), [issue](https://github.com/qubic/qubic-deployment/issues/134)).
+* Improve empty ticks validation ([issue](https://github.com/qubic/go-archiver-v2/issues/23)).
+* Add ephemeral transactions ([issue](https://github.com/qubic/qubic-deployment/issues/131), [issue](https://github.com/qubic/go-data-publisher/issues/82)).
+* Add filter restriction for log id ranges in getEventLogs ([issue](https://github.com/qubic/archive-query-service/issues/163)).
+* Rollover transactions index and add ILM (see [issue](https://github.com/qubic/qubic-deployment/issues/95)).
+* Archive event logs per epoch (see [issue](https://github.com/qubic/go-log-data-publisher/issues/34), [issue](https://github.com/qubic/go-log-data-publisher/issues/38), [issue](https://github.com/qubic/qubic-deployment/issues/135)).
+* Add larger disk on elastic cl02 (see [issue](https://github.com/qubic/qubic-deployment/issues/133)).
+* Replace bob instance (see [issue](https://github.com/qubic/qubic-deployment/issues/137)).
+
 ## Iteration 35
 
 Duration: April 22, 2026 - May 5, 2026
