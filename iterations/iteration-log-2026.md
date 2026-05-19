@@ -25,7 +25,7 @@ Duration: May 6, 2026 - May 19, 2026
 * Support 4096 txs in status service ([issue](https://github.com/qubic/go-data-publisher/issues/87)), 
   query v1 and v2 ([issue](https://github.com/qubic/archive-query-service/issues/160)),
   archiver ([issue](https://github.com/qubic/go-archiver/issues/178)), 
-  archiver v2 ([issue](https://github.com/qubic/go-archiver-v2/issues/7)),
+  archiver v2 ([issue](https://github.com/qubic/go-archiver-v2/issues/27)),
   go-qubic ([issue](https://github.com/qubic/go-qubic/issues/16)),
   node connector ([issue](https://github.com/qubic/go-node-connector/issues/34)),
   and dependencies ([issue](https://github.com/qubic/qubic-deployment/issues/139)).
