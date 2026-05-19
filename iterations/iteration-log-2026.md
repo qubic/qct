@@ -4,6 +4,22 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 36
+
+Duration: May 6, 2026 - May 19, 2026
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+#### Core
+
+* Add minimum fee for oracle query and subscription (see [PR](https://github.com/qubic/core/pull/872)).
+* Changes for oracle interface and contract compliance with updated verifier (see [PR](https://github.com/qubic/core/pull/871)).
+* Update docs about execution fees (see [PR](https://github.com/qubic/core/pull/868)).
+
+#### Contract Verification
+
+* Update contract-verify to check oracle interfaces for compliance with language restrictions (see [PR](https://github.com/Franziska-Mueller/qubic-contract-verify/pull/7) and [PR](https://github.com/qubic/core/pull/873)).
+
 ## Iteration 35
 
 Duration: April 22, 2026 - May 5, 2026
@@ -14,6 +30,7 @@ Duration: April 22, 2026 - May 5, 2026
 
 * Refine doge oracle retry mechanisms to check if task is still active (see [PR](https://github.com/qubic/core/pull/855)).
 * Fix tx censorship vulnerability in the pending txs pool by considering comp status when granting max priority to protocol-level txs (see [commit](https://github.com/qubic/core/commit/ebe64b3ab2b14043bf1ba4463ea15929a6b03eb6)).
+* Adjust oracle query memory limits (see [PR](https://github.com/qubic/core/pull/859)).
 
 #### Contract Verification
 
