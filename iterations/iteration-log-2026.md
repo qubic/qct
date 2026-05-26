@@ -15,6 +15,8 @@ Duration: May 6, 2026 - May 19, 2026
 * Add minimum fee for oracle query and subscription (see [PR](https://github.com/qubic/core/pull/872)).
 * Changes for oracle interface and contract compliance with updated verifier (see [PR](https://github.com/qubic/core/pull/871)).
 * Update docs about execution fees (see [PR](https://github.com/qubic/core/pull/868)).
+* Adapt tx revenue point with 4096 txs per tick (see [PR](https://github.com/qubic/core/pull/881)).
+* Reference miner for detour algo (see [PR](https://github.com/qubic/Qiner/pull/20))
 
 #### Contract Verification
 
