@@ -4,6 +4,25 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 37
+
+Duration: May 20, 2026 - June 01, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* API Endpoint: Smart contract dividends ([issue](https://github.com/qubic/qubic-aggregation/issues/7)).
+* Populate tx "moneyFlew" field from bob tx "executed" ([issue](https://github.com/qubic/go-archiver-v2/issues/30)).
+* Aggregation API: Batch Assets balances Endpoint ([issue](https://github.com/qubic/qubic-aggregation/issues/3)).
+* Ingestion: Support smart contract dividends ([issue](https://github.com/qubic/go-log-data-publisher/issues/41), [issue](https://github.com/qubic/kafka-streams-services/issues/9)).
+* Add a health check endpoint for the live API ([issue](https://github.com/qubic/qubic-http/issues/53)).
+* Update archiver migration documentation ([issue](https://github.com/qubic/go-archiver-v2/issues/31)).
+* Update API documentation ([issue](https://github.com/qubic/archive-query-service/issues/167)).
+* Canceled: pagination for getTransactionsForTick (no functional change, only code changes [issue](https://github.com/qubic/archive-query-service/issues/165)).
+* Fix client release in archiver ([issue](https://github.com/qubic/go-archiver-v2/issues/33)).
+* Fix maximum message size in transaction publisher ([issue](https://github.com/qubic/go-data-publisher/issues/89)).
+* Deploy qubic-aggregation services at rpc.qubic.org ([issue](https://github.com/qubic/qubic-aggregation/issues/6)).
+* Reindex initial transactions index [issue](https://github.com/qubic/qubic-deployment/issues/142)).
+
 ## Iteration 36
 
 Duration: May 6, 2026 - May 19, 2026
