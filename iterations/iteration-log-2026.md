@@ -6,7 +6,7 @@ Listed items are completed but that does not mean that all the deliverables are 
 
 ## Iteration 37
 
-Duration: May 20, 2026 - June 01, 2026
+Duration: May 20, 2026 - June 02, 2026
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
