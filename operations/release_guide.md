@@ -8,7 +8,12 @@ This guide is the authoritative playbook for safely releasing Qubic core updates
 - Any changes that impact downstream clients (for example modifying external interfaces, communication protocol, existing message structs, logging events, etc.) need to be communicated to integration/ecosystem developers at least 1 week ahead, usually via the `#dev` channel on discord.
 - When merging PRs into `develop`, it is usually the best option to do the "squash and merge" version which will bundle all changes in a single new commit. This allows for easy reverting if issues are found during the release test. Only use the "create merge commit" version if there is significant merit in keeping all original commits. Note that this will make a clean revert of a single feature much harder. We have seen unexpected results with trying to revert "merge commits" in the past. 
 - Some changes (e.g. new SCs) might depend on the outcome of a proposal. In this case, merge the PR and afterwards add a preprocessor toggle to easily let the computors disable the change (see [example commit](https://github.com/qubic/core/commit/e9293e7cce0d7f18e7db87aa11d762260deb72e7)).
+- If a smart contract requires a state change, set the appropriate option in the `contractStateChangeInfos` variable in `contract_def.h`. Remember to remove this after the epoch transition.
 - Decide if the transition will be seamless or not. Every change that affects consensus/digests has to be done non-seamless. Continue with the appropriate subsection below.
+
+> If you need a **non-seamless mid-epoch update** you have to set the flag `TICK_IS_FIRST_TICK_OF_EPOCH` to `0` in `public_settings.h`.
+> This prevents running the `BEGIN_EPOCH` procedure of the SCs a second time in the same epoch which may lead to severe bugs otherwise.
+
 
 ## Non-Seamless Epoch Transition (with Breaking Changes)
 - Use [this Google Sheet](https://docs.google.com/spreadsheets/d/1y52UHzO3vtLkzHyJVr2F_1zQ8PTsAUwDOORwpxk3Mww/edit?usp=sharing) to estimate the new initial tick (to minimize the DDoS attack surface, the new initial tick should fall into the external mining window (`tick % (676+677) > 676`). The sheet will mark this in red if it’s not the case.
@@ -52,5 +57,6 @@ This guide is the authoritative playbook for safely releasing Qubic core updates
 ## After Epoch Transition
 When the network runs stable, revert any temporary changes in develop for the next release, for example:
 - Preprocessor toggles used for code that depended on a proposal.
+- Any contract state change settings that were added in the `contractStateChangeInfos` variable in `contract_def.h`.
 - One-time code used by SCs to initialize new state variables after state size changes (usually found in `BEGIN_EPOCH` within an `if (epoch == x)` block). These may be copied to `INITIALIZE` for later reference. `INITIALIZE` will never be called again on a contract that is already constructed.
 - Other one-time bug fixes (anything wrapped in an `if (epoch == x)` block is a good candidate).
