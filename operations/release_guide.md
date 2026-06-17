@@ -16,7 +16,7 @@ This guide is the authoritative playbook for safely releasing Qubic core updates
 
 
 ## Non-Seamless Epoch Transition (with Breaking Changes)
-- Use [this Google Sheet](https://docs.google.com/spreadsheets/d/1y52UHzO3vtLkzHyJVr2F_1zQ8PTsAUwDOORwpxk3Mww/edit?usp=sharing) to estimate the new initial tick (to minimize the DDoS attack surface, the new initial tick should fall into the external mining window (`tick % (676+677) > 676`). The sheet will mark this in red if it’s not the case.
+- Use [this Google Sheet](https://docs.google.com/spreadsheets/d/1y52UHzO3vtLkzHyJVr2F_1zQ8PTsAUwDOORwpxk3Mww/edit?usp=sharing) to estimate the new initial tick.
 - In `public_settings.h`, adjust the epoch, version, and initial tick. We use semantic version names `x.y.z` where versions with the same `x` and `y` should be able to run together in a network. Hence, when doing non-seamless, the new version will always be `x.(y+1).0`. `START_NETWORK_FROM_SCRATCH` should be set to 1 for non-seamless.
 - Create a testnet branch (called `testnets/release-...`) by branching from `develop` and cherry-picking the testnet config commit (latest commit in the `testnet` branch in the core repo).
 - Ping the testing team in the `#core-testing` channel to start the release test. The general release test protocol can be found [here](https://github.com/qubic/core/blob/main/test/README.md). If new features require additional tests, specify them explicitly. The release test should be started ideally on Monday or latest Tuesday morning UTC to allow enough time.
