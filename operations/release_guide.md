@@ -57,6 +57,6 @@ This guide is the authoritative playbook for safely releasing Qubic core updates
 ## After Epoch Transition
 When the network runs stable, revert any temporary changes in develop for the next release, for example:
 - Preprocessor toggles used for code that depended on a proposal.
-- Any contract state change settings that were added in the `contractStateChangeInfos` variable in `contract_def.h`.
+- Any contract state change settings that were added in the `contractStateChangeInfos` variable in `contract_def.h`. Similarly, all contract `MIGRATE` procedures and `OldStateData` structs that are not needed anymore.
 - One-time code used by SCs to initialize new state variables after state size changes (usually found in `BEGIN_EPOCH` within an `if (epoch == x)` block). These may be copied to `INITIALIZE` for later reference. `INITIALIZE` will never be called again on a contract that is already constructed.
 - Other one-time bug fixes (anything wrapped in an `if (epoch == x)` block is a good candidate).
