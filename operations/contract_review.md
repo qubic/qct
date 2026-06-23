@@ -38,3 +38,4 @@ In addition to the automated workflows, the following checks need to be performe
   - `LOG` macros are only allowed in procedures, not in functions.
   - Helper functions, i.e. functions defined as normal C++ functions, not using our macros, need to be `private/protected`, they cannot be `public`.
   - `while` loops need to be guaranteed to terminate.
+  - When the contract calls another contract via `INVOKE_OTHER_CONTRACT_PROCEDURE`, it needs to check the `interContractCallError` (or custom `errorVar` if using `INVOKE_OTHER_CONTRACT_PROCEDURE_E`).
