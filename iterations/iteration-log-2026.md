@@ -4,6 +4,30 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 39
+
+Duration: June 17, 2026 - June 30, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Fix missing event logs in epoch 217 ([issue](https://github.com/qubic/qubic-deployment/issues/148)).
+* Fix tick intervals for epoch 217 ([issue](https://github.com/qubic/qubic-deployment/issues/145)).
+* Improve archiver sync speed with prefetching ([issue](https://github.com/qubic/go-archiver-v2/issues/36)).
+* Document pruning behavior in affected query endpoints ([issue](https://github.com/qubic/archive-query-service/issues/173)).
+* Bring ex01 and ex04 back online ([issue](https://github.com/qubic/qubic-deployment/issues/151)).
+
+## Iteration 38
+
+Duration: June 03, 2026 - June 16, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Aggregation API: Get Smart Contract rewards endpoint ([issue](https://github.com/qubic/qubic-aggregation/issues/7)).
+* Populate tx `moneyFlew` field from bob tx `executed` ([issue](https://github.com/qubic/go-archiver-v2/issues/30)).
+* Blacklist faulty node for live endpoints ([issue](https://github.com/qubic/qubic-deployment/issues/144)).
+* Delete staged directory after tick archive upload on ex03 ([issue](https://github.com/qubic/qubic-deployment/issues/146)).
+* Disable archiver and query service on ex04 ([issue](https://github.com/qubic/qubic-deployment/issues/147)).
+
 ## Iteration 37
 
 Duration: May 20, 2026 - June 02, 2026
