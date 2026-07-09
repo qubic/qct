@@ -3,7 +3,6 @@
 
 With Q3 we want create a good baseline to the existing operations, please find below the latest updates on our team structure.
 
-
 > [!IMPORTANT]  
 > This is a DRAFT paper until a budget is approved. Upon final state anything can change.
 
@@ -24,7 +23,7 @@ The Core team builds and maintains the Qubic Core and CLI. It also provides supp
 | @fnordspace          | Developer                |             ~80% |        Paid |                        |
 | @raika sternensucher | Developer                |             ~80% |        Paid | |
 | @feiyu             | Lite Node Developer |            ~100% |        Paid |                  |
-| @dkat                | Software Architect       |         ~40-80% |      Parially Paid |                        |
+| @dkat                | Software Architect       |         ~40-80% |      Partially Paid |                        |
 | @Come-from-Beyond    | Lead Protocol Engineer   |          ~0-100% |      Unpaid |                        |
 | @joetom              | Software Architect       |          ~60-100% |      Unpaid |                        |
 
