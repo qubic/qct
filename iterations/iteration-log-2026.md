@@ -4,6 +4,16 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 40
+
+Duration: June 30, 2026 - July 14, 2026
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+
+* Development and Internal end-to-end testing OC-Machinery (see first [PR](https://github.com/qubic/core/pull/948)).
+* Development and testing oc-machine (see [repo](https://github.com/qubic/oc-machine))
+* Development and testing oc-moch-service (see [repo](https://github.com/qubic/oc-mock-service))
+
 ## Iteration 39
 
 Duration: June 17, 2026 - June 30, 2026
