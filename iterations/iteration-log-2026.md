@@ -6,17 +6,18 @@ Listed items are completed but that does not mean that all the deliverables are 
 
 ## Iteration 40
 
-Duration: June 30, 2026 - July 14, 2026
+Duration: June 30, 2026 - July 13, 2026
 
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 
 * Development and Internal end-to-end testing OC-Machinery (see first [PR](https://github.com/qubic/core/pull/948)).
-* Development and testing oc-machine (see [repo](https://github.com/qubic/oc-machine))
-* Development and testing oc-moch-service (see [repo](https://github.com/qubic/oc-mock-service))
+* Development and testing oc-machine (see [repo](https://github.com/qubic/oc-machine)).
+* Development and testing oc-mock-service (see [repo](https://github.com/qubic/oc-mock-service)).
+* First seamless mandatory update, i.e. breaking code changes were deployed in a way that gave computor operators a time window to update their nodes and resync with the ticking network instead of a coordinated restart from scratch (see [release](https://github.com/qubic/core/releases/tag/v1.298.1)).
 
 ## Iteration 39
 
-Duration: June 17, 2026 - June 30, 2026
+Duration: June 17, 2026 - June 29, 2026
 
 ### [Integration Team](https://github.com/orgs/qubic/projects/21)
 
@@ -25,6 +26,9 @@ Duration: June 17, 2026 - June 30, 2026
 * Improve archiver sync speed with prefetching ([issue](https://github.com/qubic/go-archiver-v2/issues/36)).
 * Document pruning behavior in affected query endpoints ([issue](https://github.com/qubic/archive-query-service/issues/173)).
 * Bring ex01 and ex04 back online ([issue](https://github.com/qubic/qubic-deployment/issues/151)).
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+* Added option for SC state migration at network restart to core (see [issue](https://github.com/qubic/core/issues/897), [PR](https://github.com/qubic/core/pull/920)).
 
 ## Iteration 38
 
@@ -37,6 +41,9 @@ Duration: June 03, 2026 - June 16, 2026
 * Blacklist faulty node for live endpoints ([issue](https://github.com/qubic/qubic-deployment/issues/144)).
 * Delete staged directory after tick archive upload on ex03 ([issue](https://github.com/qubic/qubic-deployment/issues/146)).
 * Disable archiver and query service on ex04 ([issue](https://github.com/qubic/qubic-deployment/issues/147)).
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+* Added option for SC state reset at network restart to core (see [issue](https://github.com/qubic/core/issues/897)).
 
 ## Iteration 37
 
