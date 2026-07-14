@@ -8,6 +8,14 @@ Listed items are completed but that does not mean that all the deliverables are 
 
 Duration: June 30, 2026 - July 13, 2026
 
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Fix archiver v2 so it correctly records tick ranges when the network restarts mid-epoch ([issue](https://github.com/qubic/go-archiver-v2/issues/35)).
+* Investigate the status of the epoch archival scripts and data for both the archiver and bob ([issue](https://github.com/qubic/qubic-deployment/issues/150)).
+* Investigate the event logs outage and recover the missing end-of-epoch events for epochs 218 and 219 ([issue](https://github.com/qubic/qubic-deployment/issues/149), ongoing, continued in the next iteration).
+* Update FourQ library ([issue](https://github.com/qubic/go-schnorrq/issues/4)).
+* Responded to the GitHub organization security incident: audited integration repositories and verified no code injection or data leak (see [post-mortem](../announcements/2026-07-14-post-mortem-github-security-incident.md)).
+
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 
 * Development and Internal end-to-end testing OC-Machinery (see first [PR](https://github.com/qubic/core/pull/948)).
