@@ -22,6 +22,7 @@ Duration: June 30, 2026 - July 13, 2026
 * Development and testing oc-machine (see [repo](https://github.com/qubic/oc-machine)).
 * Development and testing oc-mock-service (see [repo](https://github.com/qubic/oc-mock-service)).
 * First seamless mandatory update, i.e. breaking code changes were deployed in a way that gave computor operators a time window to update their nodes and resync with the ticking network instead of a coordinated restart from scratch (see [release](https://github.com/qubic/core/releases/tag/v1.298.1)).
+* Support requesting raw score for revenue (see [PR](https://github.com/qubic/core/pull/933) [PR](https://github.com/qubic/qubic-cli/pull/126))
 
 ## Iteration 39
 
@@ -37,6 +38,9 @@ Duration: June 17, 2026 - June 29, 2026
 
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 * Added option for SC state migration at network restart to core (see [issue](https://github.com/qubic/core/issues/897), [PR](https://github.com/qubic/core/pull/920)).
+* Addition LUT mining algorithm completed in reference Qiner, but unreleased. It has been superseded by a new algorithm.([PR](https://github.com/qubic/Qiner/pull/22)).
+* Enable new revenue v2 formula with param tuning (see [PR](https://github.com/qubic/core/pull/923)).
+* Fix potential deadlock for save/load snapshot (see [PR](https://github.com/qubic/core/pull/927))
 
 ## Iteration 38
 
@@ -52,6 +56,8 @@ Duration: June 03, 2026 - June 16, 2026
 
 ### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
 * Added option for SC state reset at network restart to core (see [issue](https://github.com/qubic/core/issues/897)).
+* Integrate and speed up the detour mining algorithm.(see [PR](https://github.com/qubic/core/pull/895)).
+* Finalize the revenue v2 formula and run in shadow mode. (see [PR](https://github.com/qubic/core/pull/908))
 
 ## Iteration 37
 
