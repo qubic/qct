@@ -4,6 +4,18 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 41
+
+Duration: July 14, 2026 - July 27, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Investigate improvements to the algorithm that selects the live nodes used ([issue](https://github.com/qubic/go-qubic-nodes/issues/28)).
+* Implement reliable bob instances functionality and endpoint ([issue](https://github.com/qubic/go-qubic-nodes/issues/31)).
+* Devops: encrypt deployment-relevant information ([issue](https://github.com/qubic/qubic-deployment/issues/88)).
+* Continue the event logs outage investigation and recovery of missing events, carried over from Iteration 40 ([issue](https://github.com/qubic/qubic-deployment/issues/149), still ongoing).
+* Prepare documentation for partners and exchanges on setting up and operating their own BOB nodes for transaction-based integration ([issue](https://github.com/qubic/integration/issues/113), ongoing, continued in the next iteration).
+
 ## Iteration 40
 
 Duration: June 30, 2026 - July 13, 2026
