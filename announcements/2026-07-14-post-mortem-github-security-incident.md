@@ -131,27 +131,27 @@ Each committed action is mapped to the stage of the attack it directly blocks. O
 
 ### 🟢 Ship this week
 
-| # | Action | Blocks | Notes |
-|---|---|---|---|
-| 1 | **Enforce 2FA for the entire organization.** Previous policy: privileged users only. New policy: every member, no exceptions. | Stage 1 | Codifies the change made during containment. |
-| 2 | **CODEOWNERS on `.github/workflows/`** in every repository. Every workflow file change now requires review by a named workflow owner. | Stage 2 | Highest-leverage single change on this list. |
-| 3 | **Mandatory `permissions:` block** in every workflow file, least-privilege by default. | Stage 2 & 3 | Template + lint rule. |
-| 4 | **Enable GitHub Advanced Security features** on every public qubic repository — secret scanning, push protection, code scanning, Dependabot. | Stages 2 & 3 | Free for public repositories. |
+| # | Status |  Action | Blocks | Notes |
+|---|---| ---|---|---|
+| 1 | ✅ | **Enforce 2FA for the entire organization.** Previous policy: privileged users only. New policy: every member, no exceptions. | Stage 1 | Codifies the change made during containment. |
+| 2 | ✅ | **CODEOWNERS on `.github/workflows/`** in every repository. Every workflow file change now requires review by a named workflow owner. | Stage 2 | Highest-leverage single change on this list. |
+| 3 | ✅ | **Mandatory `permissions:` block** in every workflow file, least-privilege by default. | Stage 2 & 3 | Template + lint rule. |
+| 4 | ✅ | **Enable GitHub Advanced Security features** on every public qubic repository — secret scanning, push protection, code scanning, Dependabot. | Stages 2 & 3 | Free for public repositories. |
 
 ### 🟡 Ship this month
 
-| # | Action | Blocks | Notes |
-|---|---|---|---|
-| 5 | **`actionlint` + `zizmor` in CI** for every workflow-file PR. Static analysis catches classes of malicious workflow before merge. | Stage 2 | Free OSS tooling. |
-| 6 | **Formalize and publish the incident response runbook.** The existing simple guide + emergency chat + third-party task tracker worked for this incident — it will be written up as the standing plan, with rotation for on-call security lead. The same plan applies to non-GitHub incidents. | Response readiness | Institutionalizes what already worked. |
-| 7 | **Quarterly access review** — automated audit of who has write access to what, with default-revoke for stale accounts. | Stage 1 | Reduces standing attack surface over time. |
+| # | Status | Action | Blocks | Notes |
+|---|---|---|---|---|
+| 5 | ✅ | **`actionlint` + `zizmor` in CI** for every workflow-file PR. Static analysis catches classes of malicious workflow before merge. | Stage 2 | Free OSS tooling. |
+| 6 | ✅ | **Formalize and publish the incident response runbook.** The existing simple guide + emergency chat + third-party task tracker worked for this incident — it will be written up as the standing plan, with rotation for on-call security lead. The same plan applies to non-GitHub incidents. | Response readiness | Institutionalizes what already worked. |
+| 7 | ⌛ | **Quarterly access review** — automated audit of who has write access to what, with default-revoke for stale accounts. | Stage 1 | Reduces standing attack surface over time. |
 
 ### 🔵 Ship this quarter
 
-| # | Action | Blocks | Notes |
-|---|---|---|---|
-| 8 | **Environment-scoped secrets with approval gates for every publish path.** Building on the existing per-repository credentials and main-branch protection, publish/deploy secrets will require reviewer approval to unlock. | Stage 6 (artefact tampering) | Public-repo environments include approval gates on Free. |
-| 9 | **Auto-publish policy tightened for the Web Wallet.** Wallet applications (mobile, browser extension) already had no-auto-publish policy in place. The Web Wallet was operating on an older policy that permitted automated publish under some conditions — that policy is being brought in line with the other wallet apps: **no automated publish for any wallet application, ever**. Some tooling automation will be built to enforce the difference between wallet and non-wallet repos programmatically. | Stage 6 | Wallet apps carry direct user-fund risk — different bar than other repos. |
+| # | Status | Action | Blocks | Notes |
+|---|---|---|---|---|
+| 8 | ✅ | **Environment-scoped secrets with approval gates for every publish path.** Building on the existing per-repository credentials and main-branch protection, publish/deploy secrets will require reviewer approval to unlock. | Stage 6 (artefact tampering) | Public-repo environments include approval gates on Free. |
+| 9 | ✅ | **Auto-publish policy tightened for the Web Wallet.** Wallet applications (mobile, browser extension) already had no-auto-publish policy in place. The Web Wallet was operating on an older policy that permitted automated publish under some conditions — that policy is being brought in line with the other wallet apps: **no automated publish for any wallet application, ever**. Some tooling automation will be built to enforce the difference between wallet and non-wallet repos programmatically. | Stage 6 | Wallet apps carry direct user-fund risk — different bar than other repos. |
 
 ---
 
