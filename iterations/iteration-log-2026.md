@@ -4,6 +4,18 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 42
+
+Duration: July 28, 2026 - August 10, 2026
+
+### [Integration Team](https://github.com/orgs/qubic/projects/21)
+
+* Resolve the event logs outage and recover the missing events, carried over from Iteration 40 ([issue](https://github.com/qubic/qubic-deployment/issues/149)).
+* Fix the last processed tick value getting stuck for ticks without supported events, which caused false ingestion alerts and stale reporting on the explorer ([issue](https://github.com/qubic/go-log-data-publisher/issues/46)).
+* Update the entire ingestion server fleet in response to several Linux kernel CVEs ([issue](https://github.com/qubic/qubic-deployment/issues/153)).
+* Add request pipelining to the node connector to reduce the number of concurrent requests against the live service and avoid saturating the connection pool ([issue](https://github.com/qubic/go-node-connector/issues/41)).
+* Discarded: support for the new OC Tx type — investigation concluded no changes were necessary on the integration side ([issue](https://github.com/qubic/integration/issues/115)).
+
 ## Iteration 41
 
 Duration: July 14, 2026 - July 27, 2026
