@@ -4,6 +4,13 @@ This page provides a simplified list of iteration deliverables. It is not intend
 please see the respective team boards and repositories on the [qubic GitHub](https://github.com/qubic) for that.
 Listed items are completed but that does not mean that all the deliverables are deployed to production yet.
 
+## Iteration 43
+
+Duration: August 11, 2026 - August 24, 2026
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+* Implement and optimize ant colony on BPP9000 mining algorithm ([PR](https://github.com/qubic/core/pull/978), [PR](https://github.com/qubic/Qiner/pull/27)).
+
 ## Iteration 42
 
 Duration: July 28, 2026 - August 10, 2026
@@ -27,6 +34,9 @@ Duration: July 14, 2026 - July 27, 2026
 * Devops: encrypt deployment-relevant information ([issue](https://github.com/qubic/qubic-deployment/issues/88)).
 * Continue the event logs outage investigation and recovery of missing events, carried over from Iteration 40 ([issue](https://github.com/qubic/qubic-deployment/issues/149), still ongoing).
 * Prepare documentation for partners and exchanges on setting up and operating their own BOB nodes for transaction-based integration ([issue](https://github.com/qubic/integration/issues/113), ongoing, continued in the next iteration).
+
+### [Core Team](https://github.com/orgs/qubic/projects/1/views/5)
+* Implement and optimize BPP9000 mining algorithm ([PR](https://github.com/qubic/core/pull/960), [PR](https://github.com/qubic/Qiner/pull/24)).
 
 ## Iteration 40
 
