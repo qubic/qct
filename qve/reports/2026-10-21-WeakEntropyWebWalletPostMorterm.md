@@ -4,19 +4,19 @@
 **Report date:** 21 October 2026
 **Affected component:** Qubic Web Wallet (browser seed generation), origin ts-library / wallet
 **Root cause:** Predictable 55-character seeds generated from `Math.random()` backed by a 32-bit-seeded PRNG on Apple platforms
-**Victims:** 1,405 drained identities
+**Victims:** 1,404 drained identities
 **Total funds moved:** 2,955,249,075,344 QU (~2.955T QU)
-**Network status:** Halted 18 Oct ~00:30, restored 20 Oct ~20:00
+**Network status:** Halted 18 Oct, restored 19 Oct 20:00 UTC — all times in this report are **UTC**
 
 ---
 
 ## Summary
 
-Between **23:30 17 Oct** and the network halt at **~00:30 18 Oct 2026**, an attacker drained **1,405 Qubic identities** for a combined **2,955,249,075,344 QU** (~2.955T QU). The funds were swept into **7 collection wallets** and partially forwarded one hop further; **379,039,994,345 QU** reached a deposit address at the exchange **MEXC** before exchanges froze.
+Between **23:42 UTC 17 Oct** and the network halt early on **18 Oct 2026**, an attacker drained **1,404 Qubic identities** for a combined **2,955,249,075,344 QU** (~2.955T QU). The funds were swept into **7 collection wallets** and partially forwarded one hop further; **379,039,994,345 QU** reached a deposit address at the exchange **MEXC** before exchanges froze.
 
 The root cause was **not** a flaw in the Qubic protocol, core node, or signature scheme. It was **weak seed entropy in the web wallet**: seeds were generated with JavaScript `Math.random()`, which on Apple platforms (Safari on macOS/iOS, and every browser on iOS, which is forced to use WebKit) is backed by WebKit's `WeakRandom` — a PRNG with only a **32-bit seed**. The entire seed space is therefore brute-forceable. With ~200× RTX 5090 the core devs reproduced the bulk of the keyspace in **~12 hours** using unoptimized code; a dedicated attacker did the same.
 
-The community voted to **revert the hacker transactions** and route recovered assets through an **escrow identity** for victim claims. **2,560,596,538,581 QU** (~2,560.6B) was reverted and made claimable; the **379.04B** that reached MEXC is pending exchange refund.
+The community voted to **revert the hacker transactions** and route recovered assets through an **escrow identity** for victim claims. **2,560,566,537,599 QU** (~2,560.57B) was reverted and made claimable; the **379.04B** that reached MEXC is pending exchange refund.
 
 ---
 
@@ -86,8 +86,8 @@ for seed in 0 .. 2^32-1:
 | Measure | Amount (QU) |
 |---|---|
 | Total moved from victims | 2,955,249,075,344 |
-| Traced into collection wallets (hop 1) | 2,939,636,532,926 |
-| Reverted / made claimable | 2,560,596,538,581 |
+| Traced into collection wallets (hop 1, executed) | 2,939,606,531,944 |
+| Reverted / made claimable | 2,560,566,537,599 |
 | Reached MEXC (pending refund) | 379,039,994,345 |
 
 Victim distribution (loss per identity):
@@ -99,11 +99,11 @@ Victim distribution (loss per identity):
 | 1M – 1B QU | 583 |
 | < 1M QU | 363 |
 
-- Victims: **1,405** identities.
+- Victims: **1,404** drained identities.
 - Largest single loss: **212,742,939,086 QU**.
 - Top 10 victims accounted for **25.9%** of all funds moved.
 
-**Fund flow.** The 1,412 victim transfers converged on **7 collection wallets** (hop 1). Those wallets largely **held** the funds — only 3 outgoing transactions were made, forwarding **473B QU** one hop further to two downstream addresses:
+**Fund flow.** The **1,411** victim transfers converged on **7 collection wallets** (hop 1). Those wallets largely **held** the funds — only 3 outgoing transactions were made, forwarding **473B QU** one hop further to two downstream addresses:
 
 - `DKYOWQRWAYFDIHPOWVCEJLZFPJHCYWZGDRHQJEFJFDMTPUYVLLPRYMTBHNQG` — **379,039,994,345 QU** → routed to MEXC.
 - `RPJPMIGBLLQLNDMUICFSRFAAUAHASCFRTPGDRKAWPBIIHMLMATEMBMAENKMD` — **94,000,000,000 QU**.
@@ -147,11 +147,11 @@ The decisive mitigation was the **coordinated network halt** at ~00:30 on 18 Oct
 
 ### Recovery mechanism
 
-The community voted to **revert all hacker transactions** and hold recovered assets in an **escrow identity** for victim claims, implemented via a coordinated restart. **2,560.6B QU** was reverted and made claimable; the **379.04B QU** that reached MEXC is pending exchange refund paperwork.
+The community voted to **revert all hacker transactions** and hold recovered assets in an **escrow identity** for victim claims, implemented via a coordinated restart. **2,560.57B QU** was reverted and made claimable; the **379.04B QU** that reached MEXC is pending exchange refund paperwork.
 
 ### Still-exposed funds
 
-Beyond the 1,405 drained identities, the full keyspace scan found **~2,900 vulnerable identities** in total. **1,391 weak wallets** holding **260,180,436,980 QU** were still funded but not yet drained at halt time. These were prioritized for freeze/migration in the restart, since their seeds are equally reproducible by anyone.
+Beyond the drained identities, the full keyspace scan found **2,806 vulnerable identities** in total (the set frozen in `frozen_addresses.h`, v1.309.0). **1,391 weak wallets** holding **260,180,436,980 QU** were still funded but not yet drained at halt time. These were prioritized for freeze/migration in the restart, since their seeds are equally reproducible by anyone.
 
 ### Permanent fix
 
@@ -176,16 +176,18 @@ Still, "5 years on a 10,000-GPU cluster" is a margin that only shrinks as hardwa
 
 ## Timeline
 
-All times are on **18 October 2026** unless stated otherwise.
+All times are **UTC**, on **18 October 2026** unless stated otherwise. Tick numbers are on-chain anchors.
 
 **Before the incident**
 
-- **~23:30, 17 Oct** — Attack begins; drains start across Apple-generated wallets.
+- **23:42, 17 Oct** — First drain (tick 85358711); drains run across Apple-generated wallets.
 
 **18 October 2026**
 
 - **00:00** — Users report to computors and the team that many funds are moving suspiciously.
 - **00:30** — Computors coordinate a **network halt** for investigation, trapping ~2.8T QU on-chain.
+- **01:26** — Last drain transfer.
+- **01:32** — Last tick before the network stops (tick 85371949).
 - **01:00** — Emergency channel established to gather evidence and run survey.
 - **01:05** — First money-flow report; an attack is confirmed.
 - **01:10** — All exchanges informed; asked to freeze related funds.
@@ -196,16 +198,13 @@ All times are on **18 October 2026** unless stated otherwise.
 - **05:00** — Mass scan of the network for vulnerable identities begins.
 - **06:00** — Dedicated victim-support communication channel established.
 - **12:00** — Community vote on next steps → **revert hacker transactions**, hold assets in an **escrow identity**.
-- **13:00** — Core devs reproduce all **1,405** hacked identities.
+- **13:00** — Core devs reproduce all **1,404** drained identities.
 
 **19 October 2026**
 
-- **06:00** — Full scan complete: **>1,500** additional vulnerable identities found (≈2,900 vulnerable in total, including the 1,405 already drained).
+- **06:00** — Full scan complete: **2,806** vulnerable identities in total (later frozen in `frozen_addresses.h` v1.309.0), including the 1,404 already drained.
 - **12:00** — Core devs publish the list; coordinate with computors to bring the network back online.
-
-**20 October 2026**
-
-- **20:00** — Qubic network back online; hacker transactions reverted, **except** the 390B-class deposit that reached MEXC.
+- **20:00** — Qubic network back online (tick 85371952); hacker transactions reverted, **except** the **379,039,994,345 QU** deposit that reached MEXC.
 - **22:00** — Claim platform released for victims to recover assets.
 
 ---
